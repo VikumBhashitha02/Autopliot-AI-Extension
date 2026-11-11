@@ -177,14 +177,14 @@ export const AutoPilotLiveView: React.FC = () => {
   const currentStepIdx = getStepIndex(agentStatus.state);
 
   return (
-    <div className="p-6 lg:p-8 space-y-6 max-w-7xl mx-auto overflow-y-auto h-[calc(100vh-4rem)]">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 max-w-7xl mx-auto w-full min-w-0">
       {/* Target IDE Environment Selector & Connection */}
-      <div className="p-5 rounded-2xl bg-slate-900/90 border border-slate-800/80 shadow-xl backdrop-blur-md space-y-4">
+      <div className="p-4 sm:p-5 rounded-2xl bg-slate-900/90 border border-slate-800/80 shadow-xl backdrop-blur-md space-y-4 min-w-0">
         {/* IDE Mode Selector Pills */}
         <div className="flex flex-wrap items-center justify-between gap-3 pb-3 border-b border-slate-800/80">
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap items-center gap-2">
             <span className="text-xs font-bold text-slate-400">Target IDE:</span>
-            <div className="flex items-center gap-1.5 bg-slate-950 p-1 rounded-xl border border-slate-800">
+            <div className="flex flex-wrap items-center gap-1.5 bg-slate-950 p-1 rounded-xl border border-slate-800">
               {[
                 { id: 'auto', label: 'Auto-Detect' },
                 { id: 'antigravity', label: 'Antigravity' },
@@ -212,8 +212,8 @@ export const AutoPilotLiveView: React.FC = () => {
         </div>
 
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
-          <div className="flex items-center gap-3.5">
-            <div className="relative flex items-center justify-center">
+          <div className="flex items-center gap-3.5 min-w-0">
+            <div className="relative flex items-center justify-center shrink-0">
               <div
                 className={`w-4 h-4 rounded-full ${
                   isConnected
@@ -225,8 +225,8 @@ export const AutoPilotLiveView: React.FC = () => {
                 <div className="absolute w-7 h-7 rounded-full bg-emerald-500/30 animate-ping" />
               )}
             </div>
-            <div>
-              <div className="flex items-center gap-2">
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
                 <span className="font-bold text-sm text-white">
                   {isConnected
                     ? `${agentStatus.activeIdeName || 'IDE'} Connected`
@@ -248,13 +248,13 @@ export const AutoPilotLiveView: React.FC = () => {
                   </span>
                 )}
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-xs text-slate-400 mt-0.5 truncate max-w-xl">
                 {agentStatus.targetWindowTitle || 'Active on Windows Desktop (WinSta0\\Default)'}
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2.5">
+          <div className="flex flex-wrap sm:flex-nowrap items-center gap-2.5">
             <button
               onClick={handleRefreshWindows}
               disabled={isRefreshingWindows}
@@ -453,7 +453,7 @@ export const AutoPilotLiveView: React.FC = () => {
       </div>
 
       {/* Metrics Row */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-3 sm:gap-4">
         <div className="p-4 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-1">
           <span className="text-xs text-slate-400">Prompts Detected</span>
           <div className="text-2xl font-black text-white">{agentStatus.totalPromptsDetected}</div>
@@ -481,7 +481,7 @@ export const AutoPilotLiveView: React.FC = () => {
       </div>
 
       {/* Action History Feed */}
-      <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4 min-w-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Clock size={16} className="text-slate-400" />
@@ -490,7 +490,7 @@ export const AutoPilotLiveView: React.FC = () => {
           {agentStatus.actionHistory.length > 0 && (
             <button
               onClick={clearActionHistory}
-              className="text-xs text-slate-400 hover:text-slate-200 transition-colors"
+              className="text-xs text-slate-400 hover:text-slate-200 transition-colors cursor-pointer"
             >
               Clear History
             </button>
@@ -510,21 +510,21 @@ export const AutoPilotLiveView: React.FC = () => {
             {agentStatus.actionHistory.map((act) => (
               <div
                 key={act.id}
-                className="p-3.5 rounded-xl bg-slate-950/70 border border-slate-800/80 flex items-center justify-between gap-3 text-xs"
+                className="p-3 sm:p-3.5 rounded-xl bg-slate-950/70 border border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3 text-xs"
               >
-                <div className="flex items-center gap-3">
+                <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
                   <div className="w-7 h-7 rounded-lg bg-emerald-500/10 text-emerald-400 flex items-center justify-center shrink-0">
                     <CheckCircle2 size={15} />
                   </div>
-                  <div>
-                    <div className="font-bold text-white flex items-center gap-2">
-                      <span>{act.title}</span>
+                  <div className="min-w-0">
+                    <div className="font-bold text-white flex flex-wrap items-center gap-1.5 sm:gap-2">
+                      <span className="truncate">{act.title}</span>
                       {act.ideName && (
-                        <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-slate-800 text-slate-300 border border-slate-700">
+                        <span className="px-2 py-0.5 rounded-full text-[10px] font-semibold bg-slate-800 text-slate-300 border border-slate-700 shrink-0">
                           {act.ideName}
                         </span>
                       )}
-                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold border ${
+                      <span className={`px-2 py-0.5 rounded-full text-[10px] font-semibold border shrink-0 ${
                         act.actionType === 'FILE_CHANGE_ACCEPT_ALL' || act.actionCategory === 'FILE_CHANGE_APPROVAL'
                           ? 'bg-cyan-500/10 text-cyan-400 border-cyan-500/20'
                           : act.actionCategory === 'TERMINAL_APPROVAL'
@@ -534,7 +534,7 @@ export const AutoPilotLiveView: React.FC = () => {
                         {act.buttonClicked}
                       </span>
                     </div>
-                    <p className="text-slate-400 text-[11px] mt-0.5">
+                    <p className="text-slate-400 text-[11px] mt-0.5 truncate">
                       {act.actionType === 'FILE_CHANGE_ACCEPT_ALL' && act.fileChangeMetadata?.modifiedFiles?.length ? (
                         <span>Files: <strong className="text-slate-200">{act.fileChangeMetadata.modifiedFiles.slice(0, 3).join(', ')}{act.fileChangeMetadata.modifiedFiles.length > 3 ? '...' : ''}</strong></span>
                       ) : (
@@ -544,7 +544,7 @@ export const AutoPilotLiveView: React.FC = () => {
                   </div>
                 </div>
 
-                <div className="text-right shrink-0">
+                <div className="text-left sm:text-right shrink-0 pt-1 sm:pt-0 border-t sm:border-t-0 border-slate-900">
                   <span className="text-[11px] font-mono text-emerald-400 block font-semibold">
                     {act.status}
                   </span>

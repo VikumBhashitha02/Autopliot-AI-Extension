@@ -101,30 +101,30 @@ export const ExecutionMonitorView: React.FC = () => {
   ];
 
   return (
-    <div className="p-6 lg:p-8 space-y-6 max-w-7xl mx-auto overflow-y-auto h-[calc(100vh-4rem)]">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 max-w-7xl mx-auto w-full min-w-0">
       {/* Header & Controls */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md">
-        <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400">
-            <Activity size={26} />
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-900/80 p-4 sm:p-6 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md min-w-0">
+        <div className="flex items-center gap-3.5 sm:gap-4 min-w-0">
+          <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 shrink-0">
+            <Activity size={24} className="sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <div className="flex items-center gap-3">
-              <h2 className="text-xl font-bold text-white tracking-tight">Execution Monitor</h2>
+          <div className="min-w-0">
+            <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+              <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">Execution Monitor</h2>
               {displayRun && getStatusBadge(displayRun.status)}
             </div>
-            <p className="text-xs text-slate-400 mt-1">
+            <p className="text-xs text-slate-400 mt-1 truncate max-w-xl">
               Active run: <strong className="text-slate-200">{displayRun?.workflowName || 'No active run'}</strong> &bull;{' '}
               Target: {agentStatus.targetWindowTitle || 'Antigravity IDE'}
             </p>
           </div>
         </div>
 
-        <div className="flex items-center gap-2.5">
+        <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 sm:gap-2.5 w-full sm:w-auto">
           {displayRun && displayRun.status === 'running' && (
             <button
               onClick={handleEmergencyStop}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md shadow-rose-600/30 cursor-pointer"
+              className="flex-1 sm:flex-none justify-center flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md shadow-rose-600/30 cursor-pointer"
             >
               <Square size={14} />
               <span>Cancel Run</span>
@@ -134,7 +134,7 @@ export const ExecutionMonitorView: React.FC = () => {
           {displayRun && (
             <button
               onClick={handleReRun}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-colors cursor-pointer"
+              className="flex-1 sm:flex-none justify-center flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-colors cursor-pointer"
             >
               <RotateCcw size={14} />
               <span>Re-Run</span>
@@ -144,8 +144,8 @@ export const ExecutionMonitorView: React.FC = () => {
       </div>
 
       {/* Real-Time Prompt-to-Result Automation Timeline */}
-      <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4">
-        <div className="flex items-center justify-between">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4 min-w-0">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <h3 className="text-sm font-bold text-white flex items-center gap-2">
             <Zap size={16} className="text-amber-400" />
             <span>Prompt-to-Result Verification Timeline</span>
@@ -153,7 +153,7 @@ export const ExecutionMonitorView: React.FC = () => {
           <span className="text-xs text-slate-400">Real-time Windows UIA Lifecycle</span>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-2.5 sm:gap-3">
           {timelineStages.map((stage, i) => (
             <div
               key={i}
@@ -172,9 +172,9 @@ export const ExecutionMonitorView: React.FC = () => {
       </div>
 
       {/* Main Execution Split View: Steps & Live Logs */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-6 min-w-0">
         {/* Step Results Card */}
-        <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4">
+        <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4 min-w-0">
           <div className="flex items-center justify-between">
             <h3 className="text-sm font-bold text-white flex items-center gap-2">
               <Layers size={16} className="text-blue-400" />
@@ -196,9 +196,9 @@ export const ExecutionMonitorView: React.FC = () => {
               {stepList.map((step) => (
                 <div
                   key={step.stepId}
-                  className="p-3.5 rounded-xl bg-slate-950 border border-slate-800/80 flex items-center justify-between gap-3 text-xs"
+                  className="p-3 sm:p-3.5 rounded-xl bg-slate-950 border border-slate-800/80 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3 text-xs"
                 >
-                  <div className="flex items-center gap-3">
+                  <div className="flex items-center gap-2.5 sm:gap-3 min-w-0">
                     <div
                       className={`w-7 h-7 rounded-lg flex items-center justify-center shrink-0 ${
                         step.status === 'completed'
@@ -216,15 +216,15 @@ export const ExecutionMonitorView: React.FC = () => {
                         <Activity size={15} className="animate-spin" />
                       )}
                     </div>
-                    <div>
-                      <div className="font-bold text-white">{step.stepName}</div>
+                    <div className="min-w-0">
+                      <div className="font-bold text-white truncate">{step.stepName}</div>
                       <span className="text-[11px] text-slate-500 font-mono">
                         Type: {step.type} &bull; Retries: {step.retryCount}
                       </span>
                     </div>
                   </div>
 
-                  <div className="text-right shrink-0">
+                  <div className="text-left sm:text-right shrink-0 pt-1 sm:pt-0 border-t sm:border-t-0 border-slate-900">
                     <span
                       className={`text-[11px] font-bold block uppercase ${
                         step.status === 'completed'
@@ -247,7 +247,7 @@ export const ExecutionMonitorView: React.FC = () => {
         </div>
 
         {/* Live Execution Logs */}
-        <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4 flex flex-col h-[480px]">
+        <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl space-y-4 flex flex-col h-[480px] min-w-0">
           <div className="flex items-center justify-between shrink-0">
             <h3 className="text-sm font-bold text-white flex items-center gap-2">
               <Terminal size={16} className="text-emerald-400" />

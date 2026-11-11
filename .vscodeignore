@@ -19,4 +19,9 @@ index.html
 dist-electron/**
 dist-test/**
 node_modules/**
+*.vsix
+*.vsix*
+*.bak
+*.release_backup
+.gitignore
 

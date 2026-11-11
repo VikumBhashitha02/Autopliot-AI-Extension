@@ -42,18 +42,18 @@ export const SettingsView: React.FC = () => {
   };
 
   return (
-    <div className="p-6 lg:p-8 space-y-6 max-w-5xl mx-auto overflow-y-auto h-[calc(100vh-4rem)]">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 max-w-5xl mx-auto w-full min-w-0">
       {/* Header */}
-      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-900/80 p-6 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md">
-        <div className="flex items-center gap-4">
-          <div className="w-12 h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400">
-            <SettingsIcon size={26} />
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 bg-slate-900/80 p-4 sm:p-6 rounded-2xl border border-slate-800 shadow-xl backdrop-blur-md min-w-0">
+        <div className="flex items-center gap-3.5 sm:gap-4 min-w-0">
+          <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600/20 border border-blue-500/30 flex items-center justify-center text-blue-400 shrink-0">
+            <SettingsIcon size={24} className="sm:w-6 sm:h-6" />
           </div>
-          <div>
-            <h2 className="text-xl font-bold text-white tracking-tight">
+          <div className="min-w-0">
+            <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight truncate">
               Settings &amp; Automation Configuration
             </h2>
-            <p className="text-xs text-slate-400 mt-1">
+            <p className="text-xs text-slate-400 mt-1 truncate max-w-xl">
               Configure safe automation thresholds, continuous monitoring, and target application boundaries.
             </p>
           </div>
@@ -61,7 +61,7 @@ export const SettingsView: React.FC = () => {
 
         <button
           onClick={handleSave}
-          className={`flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all shadow-md cursor-pointer ${
+          className={`w-full sm:w-auto justify-center flex items-center gap-2 px-5 py-2.5 rounded-xl text-xs font-bold transition-all shadow-md cursor-pointer shrink-0 ${
             savedSuccess
               ? 'bg-emerald-600 text-white'
               : 'bg-blue-600 hover:bg-blue-500 text-white shadow-blue-600/30'
@@ -73,8 +73,8 @@ export const SettingsView: React.FC = () => {
       </div>
 
       {/* Policy Selector with Plain-Language Guidance */}
-      <div className="bg-slate-900/60 p-6 rounded-2xl border border-slate-800 backdrop-blur-md space-y-5">
-        <div className="flex items-center justify-between">
+      <div className="bg-slate-900/60 p-4 sm:p-6 rounded-2xl border border-slate-800 backdrop-blur-md space-y-4 sm:space-y-5 min-w-0">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <h3 className="text-sm font-bold text-white flex items-center gap-2">
             <ShieldCheck size={18} className="text-emerald-400" />
             <span>Automation Approval Policy</span>
@@ -82,7 +82,7 @@ export const SettingsView: React.FC = () => {
           <span className="text-xs text-slate-400">Active: {formSettings.approvalPolicy}</span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-xs">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-3 sm:gap-4 text-xs">
           {/* Policy 1: Safe Auto-Pilot */}
           <div
             onClick={() => setFormSettings({ ...formSettings, approvalPolicy: 'auto_safe_only' })}
@@ -306,8 +306,8 @@ export const SettingsView: React.FC = () => {
       </div>
 
       {/* Storage and Cleanup */}
-      <div className="bg-slate-900/60 p-6 rounded-2xl border border-slate-800 backdrop-blur-md flex items-center justify-between">
-        <div>
+      <div className="bg-slate-900/60 p-4 sm:p-6 rounded-2xl border border-slate-800 backdrop-blur-md flex flex-col sm:flex-row sm:items-center justify-between gap-3 min-w-0">
+        <div className="min-w-0">
           <span className="font-bold text-sm text-white block">Clear Execution History</span>
           <span className="text-xs text-slate-400">
             Purges past run records from local storage. Workflow templates remain preserved.
@@ -315,7 +315,7 @@ export const SettingsView: React.FC = () => {
         </div>
         <button
           onClick={handleClearRuns}
-          className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-rose-950/60 hover:text-rose-400 border border-slate-700 hover:border-rose-500/30 text-slate-300 text-xs font-semibold transition-all cursor-pointer"
+          className="flex items-center justify-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-rose-950/60 hover:text-rose-400 border border-slate-700 hover:border-rose-500/30 text-slate-300 text-xs font-semibold transition-all cursor-pointer w-full sm:w-auto shrink-0"
         >
           <Trash2 size={14} />
           <span>Clear History</span>

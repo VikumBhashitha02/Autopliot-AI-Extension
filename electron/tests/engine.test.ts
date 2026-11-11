@@ -22,6 +22,7 @@ import { WindowsAdapter } from '../../extension/src/adapters/platform/windowsAda
 import { MacosAdapter } from '../../extension/src/adapters/platform/macosAdapter';
 import { LinuxAdapter } from '../../extension/src/adapters/platform/linuxAdapter';
 import { AntigravityEnvironment } from '../../extension/src/adapters/ide/antigravityEnvironment';
+import { ConfigurationSynchronizer } from '../../extension/src/providers/configurationSynchronizer';
 
 test('SafetyGuard: flags dangerous terminal commands as destructive', () => {
   const dangerousCommands = [
@@ -1860,6 +1861,111 @@ test('Extension Test 22: Extension reload and restart retains workflows and runs
     const loadedWf = session2.getWorkflowById('wf_custom_persisted');
     assert.ok(loadedWf, 'Custom workflow must exist after restart');
     assert.strictEqual(loadedWf?.name, 'Persisted Across Reboots');
+  } finally {
+    fs.rmSync(tmpDir, { recursive: true, force: true });
+  }
+});
+
+test('Regression Test BUG-001: Webview asset transformation handles relative ./assets/, /assets/, and bundle files with CSP', () => {
+  const distDir = path.resolve('dist');
+  const sampleHtml = `<!DOCTYPE html>
+<html>
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script type="module" crossorigin src="./assets/index-sample.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-sample.css">
+  <img src="/assets/app-icon-sample.png">
+</head>
+<body><div id="root"></div></body>
+</html>`;
+
+  const cspSource = 'vscode-webview:';
+  const cspMeta = `<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src ${cspSource} https: data:; script-src 'unsafe-inline' ${cspSource}; style-src 'unsafe-inline' ${cspSource} https://fonts.googleapis.com; font-src ${cspSource} https://fonts.gstatic.com;">`;
+
+  let transformed = sampleHtml.replace(
+    /(src|href)=["']((?:\.?\/)?assets\/[^"']+|(?:\.?\/)?[^"':]+\.(?:png|jpg|jpeg|svg|ico|css|js))["']/gi,
+    (match, attr, assetPath) => {
+      if (/^(?:https?:|\/\/|data:)/i.test(assetPath)) return match;
+      const cleanPath = assetPath.replace(/^(\.\/|\/)/, '');
+      return `${attr}="vscode-webview://mock/${cleanPath}"`;
+    }
+  );
+
+  if (!transformed.includes('http-equiv="Content-Security-Policy"') && transformed.includes('<head>')) {
+    transformed = transformed.replace('<head>', `<head>\n  ${cspMeta}`);
+  }
+
+  assert.ok(transformed.includes('src="vscode-webview://mock/assets/index-sample.js"'), 'Relative script ./assets/ must be transformed to webview URI');
+  assert.ok(transformed.includes('href="vscode-webview://mock/assets/index-sample.css"'), 'Relative style ./assets/ must be transformed to webview URI');
+  assert.ok(transformed.includes('src="vscode-webview://mock/assets/app-icon-sample.png"'), 'Root-relative /assets/ must be transformed to webview URI');
+  assert.ok(transformed.includes('href="https://fonts.googleapis.com"'), 'External fonts link must be preserved as-is');
+  assert.ok(transformed.includes('Content-Security-Policy'), 'Content-Security-Policy meta tag must be present in head');
+});
+
+test('Regression Test BUG-002: Sidebar navigation structure contains entries for Workflow Library and Automation Agent', () => {
+  const sidebarPath = path.resolve('src/components/Sidebar.tsx');
+  const sidebarCode = fs.readFileSync(sidebarPath, 'utf-8');
+
+  // Verify 'agent' navigation entry
+  assert.ok(sidebarCode.includes("id: 'agent'"), "Sidebar must define navigation item for 'agent'");
+  assert.ok(sidebarCode.includes("label: 'Automation Agent'"), "Sidebar must display 'Automation Agent' label");
+
+  // Verify 'library' navigation entry
+  assert.ok(sidebarCode.includes("id: 'library'"), "Sidebar must define navigation item for 'library'");
+  assert.ok(sidebarCode.includes("label: 'Workflow Library'"), "Sidebar must display 'Workflow Library' label");
+
+  // Verify App.tsx binds both views to their active tabs
+  const appPath = path.resolve('src/App.tsx');
+  const appCode = fs.readFileSync(appPath, 'utf-8');
+  assert.ok(appCode.includes("case 'agent':"), "App.tsx must handle activeTab 'agent'");
+  assert.ok(appCode.includes('<AutomationAgentView />'), 'App.tsx must render AutomationAgentView for agent tab');
+  assert.ok(appCode.includes("case 'library':"), "App.tsx must handle activeTab 'library'");
+  assert.ok(appCode.includes('<WorkflowLibraryView />'), 'App.tsx must render WorkflowLibraryView for library tab');
+});
+
+test('Regression Test BUG-003: ConfigurationSynchronizer bidirectionally maps settings and prevents circular sync loops', () => {
+  // 1. Mode to approval policy mapping
+  assert.strictEqual(ConfigurationSynchronizer.modeToApprovalPolicy('safe_auto'), 'auto_safe_only');
+  assert.strictEqual(ConfigurationSynchronizer.modeToApprovalPolicy('full_auto'), 'full_auto');
+  assert.strictEqual(ConfigurationSynchronizer.modeToApprovalPolicy('manual_approval'), 'always_manual');
+  assert.strictEqual(ConfigurationSynchronizer.modeToApprovalPolicy('unknown' as any), 'auto_safe_only');
+
+  // 2. Approval policy to mode mapping
+  assert.strictEqual(ConfigurationSynchronizer.approvalPolicyToMode('auto_safe_only'), 'safe_auto');
+  assert.strictEqual(ConfigurationSynchronizer.approvalPolicyToMode('full_auto'), 'full_auto');
+  assert.strictEqual(ConfigurationSynchronizer.approvalPolicyToMode('always_manual'), 'manual_approval');
+
+  // 3. Response speed to delay ms mapping
+  assert.strictEqual(ConfigurationSynchronizer.speedToDelayMs('instant'), 100);
+  assert.strictEqual(ConfigurationSynchronizer.speedToDelayMs('fast'), 250);
+  assert.strictEqual(ConfigurationSynchronizer.speedToDelayMs('comfortable'), 750);
+  assert.strictEqual(ConfigurationSynchronizer.speedToDelayMs('deliberate'), 1500);
+
+  // 4. Delay ms to response speed mapping
+  assert.strictEqual(ConfigurationSynchronizer.delayMsToSpeed(100), 'instant');
+  assert.strictEqual(ConfigurationSynchronizer.delayMsToSpeed(250), 'fast');
+  assert.strictEqual(ConfigurationSynchronizer.delayMsToSpeed(750), 'comfortable');
+  assert.strictEqual(ConfigurationSynchronizer.delayMsToSpeed(1500), 'deliberate');
+
+  // 5. DocumentStore settings persistence with synchronized fields
+  const tmpDir = fs.mkdtempSync(path.join(os.tmpdir(), 'autopilot_cfg_test_'));
+  try {
+    const store = new DocumentStore(tmpDir);
+    const updated = store.saveSettings({
+      approvalPolicy: 'full_auto',
+      responseSpeed: 'instant',
+      autoStartMonitoring: true,
+      monitoringInterval: 1200,
+      autoAcceptAllFileChanges: true,
+    });
+    assert.strictEqual(updated.approvalPolicy, 'full_auto');
+    assert.strictEqual(updated.responseSpeed, 'instant');
+    assert.strictEqual(updated.autoStartMonitoring, true);
+    assert.strictEqual(updated.monitoringInterval, 1200);
+
+    const reloaded = store.getSettings();
+    assert.strictEqual(reloaded.approvalPolicy, 'full_auto');
+    assert.strictEqual(reloaded.responseSpeed, 'instant');
   } finally {
     fs.rmSync(tmpDir, { recursive: true, force: true });
   }

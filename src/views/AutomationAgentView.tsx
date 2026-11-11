@@ -137,19 +137,19 @@ export const AutomationAgentView: React.FC = () => {
   const isRunning = agentStatus.state === 'monitoring' || agentStatus.state === 'running' || agentStatus.state === 'prompt_detected' || agentStatus.state === 'submitting';
 
   return (
-    <div className="p-6 lg:p-8 space-y-6 max-w-6xl mx-auto overflow-y-auto h-[calc(100vh-4rem)]">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 max-w-6xl mx-auto w-full min-w-0">
       {/* Header and Controls */}
-      <div className="p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl backdrop-blur-md space-y-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/80 border border-slate-800 shadow-xl backdrop-blur-md space-y-4">
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-          <div className="flex items-center gap-3.5">
-            <div className="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 border border-blue-500/30 flex items-center justify-center">
-              <Bot size={26} />
+          <div className="flex items-center gap-3.5 min-w-0">
+            <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-blue-600/20 text-blue-400 border border-blue-500/30 flex items-center justify-center shrink-0">
+              <Bot size={24} className="sm:w-6 sm:h-6" />
             </div>
-            <div>
-              <div className="flex items-center gap-2">
-                <h2 className="text-xl font-bold text-white tracking-tight">Automation Agent</h2>
+            <div className="min-w-0">
+              <div className="flex flex-wrap items-center gap-2">
+                <h2 className="text-lg sm:text-xl font-bold text-white tracking-tight">Automation Agent</h2>
                 <span
-                  className={`text-xs font-bold px-2.5 py-0.5 rounded-full border ${
+                  className={`text-[10px] sm:text-xs font-bold px-2.5 py-0.5 rounded-full border ${
                     isRunning
                       ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30 animate-pulse'
                       : 'bg-slate-800 text-slate-400 border-slate-700'
@@ -158,17 +158,17 @@ export const AutomationAgentView: React.FC = () => {
                   {isRunning ? 'MONITORING ACTIVE' : 'IDLE'}
                 </span>
               </div>
-              <p className="text-xs text-slate-400 mt-0.5">
+              <p className="text-xs text-slate-400 mt-0.5 truncate max-w-xl">
                 Continuously tracks Antigravity processes, inspects desktop UIA tree, and auto-submits prompts.
               </p>
             </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 w-full sm:w-auto">
             {!isRunning ? (
               <button
                 onClick={handleStartMonitoring}
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-md shadow-emerald-600/30 cursor-pointer"
+                className="flex-1 sm:flex-none justify-center flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold transition-all shadow-md shadow-emerald-600/30 cursor-pointer"
               >
                 <Play size={14} />
                 <span>Start Monitoring</span>
@@ -176,7 +176,7 @@ export const AutomationAgentView: React.FC = () => {
             ) : (
               <button
                 onClick={handleStopMonitoring}
-                className="flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600/90 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md shadow-rose-600/30 cursor-pointer"
+                className="flex-1 sm:flex-none justify-center flex items-center gap-2 px-4 py-2 rounded-xl bg-rose-600/90 hover:bg-rose-500 text-white text-xs font-bold transition-all shadow-md shadow-rose-600/30 cursor-pointer"
               >
                 <Square size={14} />
                 <span>Stop Monitoring</span>
@@ -186,7 +186,7 @@ export const AutomationAgentView: React.FC = () => {
             <button
               onClick={handleProbeNow}
               disabled={isProbing}
-              className="flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-colors cursor-pointer"
+              className="flex-1 sm:flex-none justify-center flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 text-xs font-bold transition-colors cursor-pointer"
             >
               <Search size={14} className={isProbing ? 'animate-spin text-cyan-400' : 'text-cyan-400'} />
               <span>{isProbing ? 'Probing...' : 'Probe UI Tree'}</span>
@@ -196,16 +196,16 @@ export const AutomationAgentView: React.FC = () => {
       </div>
 
       {/* Multi-IDE Environments Grid */}
-      <div className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4">
-        <div className="flex items-center justify-between">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4 min-w-0">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="flex items-center gap-2">
             <Cpu size={18} className="text-cyan-400" />
             <h3 className="text-sm font-bold text-white">Supported IDE Environments</h3>
           </div>
-          <span className="text-xs text-slate-400">3 AI Environments Connected & Monitored</span>
+          <span className="text-xs text-slate-400">2 AI Environments Connected &amp; Monitored</span>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3 sm:gap-4">
           {[
             {
               id: 'antigravity',
@@ -287,7 +287,7 @@ export const AutomationAgentView: React.FC = () => {
       </div>
 
       {/* Target Connection Card */}
-      <div className="p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/60 border border-slate-800 space-y-4 min-w-0">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Monitor size={18} className="text-blue-400" />

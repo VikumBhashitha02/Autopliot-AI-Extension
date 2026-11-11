@@ -11,6 +11,7 @@ import { registerEmergencyStopCommand } from './commands/emergencyStop';
 import { registerMonitoringCommands } from './commands/monitoringCommands';
 import { registerInspectAndWorkflowCommands } from './commands/inspectAndWorkflowCommands';
 import { AntigravityEnvironment } from './adapters/ide/antigravityEnvironment';
+import { ConfigurationSynchronizer } from './providers/configurationSynchronizer';
 
 let agentServiceInstance: AgentService | null = null;
 let workflowEngineInstance: WorkflowEngine | null = null;
@@ -119,15 +120,28 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
   const inspectCmds = registerInspectAndWorkflowCommands(context, agentService, docStore, workflowEngine, viewProvider);
   context.subscriptions.push(...inspectCmds);
 
-  // 5. Auto-start monitoring if configured in settings
+  // 5. Register Configuration Synchronizer (Syncs package.json autopilot.* with DocumentStore)
+  const configDisposable = ConfigurationSynchronizer.register(
+    context,
+    docStore,
+    agentService,
+    statusBarProvider,
+    (updatedSettings) => {
+      viewProvider?.postMessage('settings:updated', updatedSettings);
+    }
+  );
+  context.subscriptions.push(configDisposable);
+
+  // 6. Auto-start monitoring if configured in settings
   const settings = docStore.getSettings();
-  if (settings.autoStartMonitoring !== false) {
-    agentService.startMonitoring(1800).catch((err) => {
+  if (settings.autoStartMonitoring === true) {
+    const interval = settings.monitoringInterval || 1000;
+    agentService.startMonitoring(interval).catch((err) => {
       console.warn('[AutoPilot AI] Auto-start monitoring warning:', err);
     });
   }
 
-  // 6. Report successful activation
+  // 7. Report successful activation
   vscode.window.setStatusBarMessage(`$(zap) AutoPilot AI active (${hostLabel})`, 4000);
 }
 

@@ -7,6 +7,7 @@ import { WorkflowEngine } from '../../../electron/engine/workflowEngine';
 import { PowerShellAdapter } from '../../../electron/adapters/powershellAdapter';
 import { SafetyGuard } from '../../../electron/security/safetyGuard';
 import { StatusBarProvider } from './statusBarProvider';
+import { ConfigurationSynchronizer } from './configurationSynchronizer';
 
 export class AutoPilotViewProvider implements vscode.WebviewViewProvider {
   public static readonly viewType = 'autopilot-ai.mainView';
@@ -211,6 +212,10 @@ export class AutoPilotViewProvider implements vscode.WebviewViewProvider {
         if (updated.selectedWindowHwnd !== undefined) {
           this._agentService.setSelectedWindow(updated.selectedWindowHwnd);
         }
+        // Bidirectionally synchronize settings with VS Code configuration
+        ConfigurationSynchronizer.syncFromStoreToVsCode(args[0]).catch((err) => {
+          console.warn('[AutoPilot AI] Background config sync warning:', err);
+        });
         this._statusBarProvider.updateStatus(this._agentService.getStatus());
         return updated;
       }
@@ -231,17 +236,29 @@ export class AutoPilotViewProvider implements vscode.WebviewViewProvider {
     let html = '';
     if (fs.existsSync(indexHtmlPath)) {
       html = fs.readFileSync(indexHtmlPath, 'utf-8');
-      // Convert relative assets to webview URIs
-      html = html.replace(/(src|href)=["'](\/assets\/[^"']+)["']/g, (_match, attr, assetPath) => {
-        const fileOnDisk = vscode.Uri.file(path.join(distPath, assetPath.replace(/^\//, '')));
-        const webviewUri = webview.asWebviewUri(fileOnDisk);
-        return `${attr}="${webviewUri}"`;
-      });
-      html = html.replace(/(src|href)=["'](assets\/[^"']+)["']/g, (_match, attr, assetPath) => {
-        const fileOnDisk = vscode.Uri.file(path.join(distPath, assetPath));
-        const webviewUri = webview.asWebviewUri(fileOnDisk);
-        return `${attr}="${webviewUri}"`;
-      });
+      // Convert relative assets (./assets/..., /assets/..., assets/..., and local bundled files) to webview URIs
+      html = html.replace(
+        /(src|href)=["']((?:\.?\/)?assets\/[^"']+|(?:\.?\/)?[^"':]+\.(?:png|jpg|jpeg|svg|ico|css|js))["']/gi,
+        (match, attr, assetPath) => {
+          if (/^(?:https?:|\/\/|data:)/i.test(assetPath)) {
+            return match;
+          }
+          const cleanPath = assetPath.replace(/^(\.\/|\/)/, '');
+          const fileOnDisk = vscode.Uri.file(path.join(distPath, cleanPath));
+          if (fs.existsSync(fileOnDisk.fsPath)) {
+            const webviewUri = webview.asWebviewUri(fileOnDisk);
+            return `${attr}="${webviewUri}"`;
+          }
+          return match;
+        }
+      );
+
+      // Ensure Content-Security-Policy is enforced for the webview
+      const cspSource = webview.cspSource;
+      const cspMeta = `<meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src ${cspSource} https: data:; script-src 'unsafe-inline' ${cspSource}; style-src 'unsafe-inline' ${cspSource} https://fonts.googleapis.com; font-src ${cspSource} https://fonts.gstatic.com;">`;
+      if (!html.includes('http-equiv="Content-Security-Policy"') && html.includes('<head>')) {
+        html = html.replace('<head>', `<head>\n  ${cspMeta}`);
+      }
     } else {
       // Fallback placeholder while building
       html = `<!DOCTYPE html>

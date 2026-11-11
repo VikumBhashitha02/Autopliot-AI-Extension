@@ -40,6 +40,9 @@ export interface AppLogEntry {
 interface AppContextType {
   activeTab: NavigationTab;
   setActiveTab: (tab: NavigationTab) => void;
+  sidebarOpen: boolean;
+  setSidebarOpen: (open: boolean) => void;
+  toggleSidebar: () => void;
   workflows: WorkflowDefinition[];
   selectedWorkflow: WorkflowDefinition | null;
   setSelectedWorkflow: (wf: WorkflowDefinition | null) => void;
@@ -131,6 +134,7 @@ const AppContext = createContext<AppContextType | null>(null);
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
   const [activeTab, setActiveTab] = useState<NavigationTab>('autopilot');
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
   const [workflows, setWorkflows] = useState<WorkflowDefinition[]>([]);
   const [selectedWorkflow, setSelectedWorkflow] = useState<WorkflowDefinition | null>(null);
   const [runs, setRuns] = useState<WorkflowExecutionRecord[]>([]);
@@ -142,6 +146,10 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [logs, setLogs] = useState<AppLogEntry[]>([]);
   const [pendingApproval, setPendingApproval] = useState<{ stepId: string; prompt: string; metadata?: any } | null>(null);
   const approvalResolverRef = React.useRef<((val: boolean) => void) | null>(null);
+
+  const toggleSidebar = () => {
+    setSidebarOpen((prev) => !prev);
+  };
 
   const addToast = (message: string, type: 'success' | 'error' | 'warning' | 'info' = 'info') => {
     const id = `toast_${Date.now()}_${Math.random().toString(36).substring(2, 6)}`;
@@ -498,6 +506,9 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
       value={{
         activeTab,
         setActiveTab,
+        sidebarOpen,
+        setSidebarOpen,
+        toggleSidebar,
         workflows,
         selectedWorkflow,
         setSelectedWorkflow,

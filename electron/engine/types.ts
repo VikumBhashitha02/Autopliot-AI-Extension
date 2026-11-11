@@ -284,4 +284,8 @@ export interface AppSettings {
   autoAcceptAllFileChanges?: boolean;
   ideConfigs?: Record<SupportedIdeId, PerIdeConfig>;
   targetIdeFilter?: SupportedIdeId | 'all' | 'auto';
+  responseSpeed?: 'instant' | 'fast' | 'comfortable' | 'deliberate';
+  monitoringInterval?: number;
+  enableTerminalApproval?: boolean;
+  promptInspectionConfidenceThreshold?: number;
 }

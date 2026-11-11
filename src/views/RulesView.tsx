@@ -27,22 +27,22 @@ export const RulesView: React.FC = () => {
   };
 
   return (
-    <div className="p-6 lg:p-8 space-y-6 max-w-4xl mx-auto overflow-y-auto h-[calc(100vh-4rem)]">
+    <div className="p-3 sm:p-4 md:p-6 lg:p-8 space-y-4 sm:space-y-6 max-w-4xl mx-auto w-full min-w-0">
       <div className="space-y-1">
-        <h1 className="text-2xl font-bold text-white flex items-center gap-2">
-          <Sliders size={22} className="text-blue-400" />
-          <span>AutoPilot Rules & Automation Preferences</span>
+        <h1 className="text-xl sm:text-2xl font-bold text-white flex items-center gap-2">
+          <Sliders size={22} className="text-blue-400 shrink-0" />
+          <span>AutoPilot Rules &amp; Automation Preferences</span>
         </h1>
-        <p className="text-sm text-slate-400">
+        <p className="text-xs sm:text-sm text-slate-400">
           Configure how AutoPilot AI detects choices, handles confirmation buttons, and behaves during Antigravity tasks.
         </p>
       </div>
 
       {/* Response Speed & Delay */}
-      <div className="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4">
-        <div className="flex items-center justify-between">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4 min-w-0">
+        <div className="flex flex-wrap items-center justify-between gap-2">
           <div className="space-y-0.5">
-            <h2 className="text-base font-bold text-white flex items-center gap-2">
+            <h2 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
               <Clock size={18} className="text-cyan-400" />
               <span>Auto-Submit Response Speed</span>
             </h2>
@@ -55,7 +55,7 @@ export const RulesView: React.FC = () => {
           </span>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-4 gap-3 pt-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 pt-2">
           {[
             { label: 'Instant', ms: 100, desc: 'Zero delay (0.1s)' },
             { label: 'Fast (Default)', ms: 250, desc: 'Responsive (0.25s)' },
@@ -79,9 +79,9 @@ export const RulesView: React.FC = () => {
       </div>
 
       {/* Option Selection Strategy */}
-      <div className="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4 min-w-0">
         <div className="space-y-0.5">
-          <h2 className="text-base font-bold text-white flex items-center gap-2">
+          <h2 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
             <Zap size={18} className="text-amber-400" />
             <span>Option Selection Intelligence</span>
           </h2>
@@ -98,11 +98,11 @@ export const RulesView: React.FC = () => {
               onChange={(e) => setPreferRecommended(e.target.checked)}
               className="mt-0.5 h-4 w-4 rounded border-slate-700 bg-slate-900 text-blue-600 focus:ring-blue-500"
             />
-            <div className="space-y-0.5">
+            <div className="space-y-0.5 min-w-0">
               <span className="text-xs font-semibold text-white block">
                 Prioritize (Recommended) Solution Badges
               </span>
-              <span className="text-[11px] text-slate-400 block leading-relaxed">
+              <span className="text-[11px] text-slate-400 block leading-relaxed break-words">
                 Automatically identifies markers like <code className="text-blue-300 bg-slate-900 px-1 py-0.5 rounded">(Recommended)</code>, <code className="text-blue-300 bg-slate-900 px-1 py-0.5 rounded">Yes, allow this time</code>, or <code className="text-blue-300 bg-slate-900 px-1 py-0.5 rounded">Option 1</code>.
               </span>
             </div>
@@ -115,11 +115,11 @@ export const RulesView: React.FC = () => {
               onChange={(e) => setAllowRunCommands(e.target.checked)}
               className="mt-0.5 h-4 w-4 rounded border-slate-700 bg-slate-900 text-blue-600 focus:ring-blue-500"
             />
-            <div className="space-y-0.5">
+            <div className="space-y-0.5 min-w-0">
               <span className="text-xs font-semibold text-white block">
                 Auto-Submit Terminal Execution Prompts
               </span>
-              <span className="text-[11px] text-slate-400 block leading-relaxed">
+              <span className="text-[11px] text-slate-400 block leading-relaxed break-words">
                 Automatically approves prompts asking to run non-destructive terminal inspection or diagnostic commands.
               </span>
             </div>
@@ -128,9 +128,9 @@ export const RulesView: React.FC = () => {
       </div>
 
       {/* Button Matching Rules */}
-      <div className="p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4">
+      <div className="p-4 sm:p-6 rounded-2xl bg-slate-900/70 border border-slate-800 space-y-4 min-w-0">
         <div className="space-y-0.5">
-          <h2 className="text-base font-bold text-white flex items-center gap-2">
+          <h2 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
             <MousePointer size={18} className="text-emerald-400" />
             <span>Candidate Button Matching Rules</span>
           </h2>
@@ -139,7 +139,7 @@ export const RulesView: React.FC = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-2.5 text-xs">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5 text-xs">
           {[
             { label: 'Submit / Submit ↵ / Send', cat: 'PROMPT_SUBMISSION' },
             { label: 'Continue / Proceed', cat: 'CONTINUE_APPROVAL' },

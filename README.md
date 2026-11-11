@@ -124,4 +124,4 @@ Configure AutoPilot AI via `Preferences: Open Settings` (`autopilot.*`):
 
 ## 📄 License
 
-MIT License. Copyright (c) 2026 AutoPilot AI Team.
+MIT License. Copyright (c) 2026 AutoPilot AI (V.B)

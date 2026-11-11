@@ -4,7 +4,7 @@
   "description": "Autonomous AI workflow automation, prompt inspection, and file change approval for Visual Studio Code & Google Antigravity IDE.",
   "version": "1.0.0",
   "publisher": "autopilot-ai",
-  "author": "AutoPilot AI Team",
+  "author": "AutoPilot AI (V.B)",
   "license": "MIT",
   "icon": "media/icons/autopilot.png",
   "engines": {
