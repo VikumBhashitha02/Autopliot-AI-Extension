@@ -1,0 +1,17 @@
+﻿=================================================================
+AUTOPILOT REAL-TIME PROMPT COMPLETER SUMMARY
+Timestamp (UTC): 2026-11-03T14:16:46.4813842Z
+Total Windows Scanned: 2
+Target Window HWND: 0 (PID: 0)
+Window Title: 
+Prompt Detected: False
+Available Options: 0
+Selected Option: None (Action: None)
+Submit Button: None (Action: None)
+Dialog Closed / Transitioned: False
+Final Status: NO_PROMPT_VISIBLE
+Execution Logs:
+  * Scanning 1 target window(s) for active prompts...
+  * [Window 1/1] Checking PID 14256: 'Click Application - Antigravity IDE - README.md' (HWND 198936)
+  * Scanned all target windows. No active interactive prompt detected.
+=================================================================

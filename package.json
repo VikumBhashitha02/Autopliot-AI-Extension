@@ -1,0 +1,203 @@
+{
+  "name": "autopilot-ai",
+  "displayName": "AutoPilot AI",
+  "description": "Autonomous AI workflow automation, prompt inspection, and file change approval for Visual Studio Code & Google Antigravity IDE.",
+  "version": "1.0.0",
+  "publisher": "autopilot-ai",
+  "author": "AutoPilot AI Team",
+  "license": "MIT",
+  "icon": "media/icons/autopilot.png",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "AI",
+    "Programming Languages",
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "autopilot",
+    "antigravity",
+    "automation",
+    "ai",
+    "copilot",
+    "workflow"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist-extension/extension/src/extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "autopilot-ai",
+          "title": "AutoPilot AI",
+          "icon": "media/icons/autopilot.svg"
+        }
+      ]
+    },
+    "views": {
+      "autopilot-ai": [
+        {
+          "type": "webview",
+          "id": "autopilot-ai.mainView",
+          "name": "AutoPilot AI"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "autopilot-ai.openDashboard",
+        "title": "AutoPilot AI: Open Dashboard",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.startMonitoring",
+        "title": "AutoPilot AI: Start Monitoring",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.pauseMonitoring",
+        "title": "AutoPilot AI: Pause Monitoring",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.stopMonitoring",
+        "title": "AutoPilot AI: Stop Monitoring",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.inspectPrompt",
+        "title": "AutoPilot AI: Inspect Current Prompt",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.inspectFileChanges",
+        "title": "AutoPilot AI: Inspect Pending File Changes",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.runWorkflow",
+        "title": "AutoPilot AI: Run Workflow",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.emergencyStop",
+        "title": "AutoPilot AI: EMERGENCY STOP (Halt All Automation)",
+        "category": "AutoPilot AI"
+      },
+      {
+        "command": "autopilot-ai.openSettings",
+        "title": "AutoPilot AI: Open Settings",
+        "category": "AutoPilot AI"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "autopilot-ai.emergencyStop",
+        "key": "ctrl+alt+shift+e",
+        "mac": "cmd+alt+shift+e"
+      }
+    ],
+    "configuration": {
+      "title": "AutoPilot AI",
+      "properties": {
+        "autopilot.mode": {
+          "type": "string",
+          "default": "safe_auto",
+          "enum": [
+            "safe_auto",
+            "full_auto",
+            "manual_approval"
+          ],
+          "enumDescriptions": [
+            "Safe Auto-Pilot: automatically approves safe prompts and non-destructive operations",
+            "Full Autonomous: auto-approves all non-blocked operations",
+            "Manual Approval: prompts developer before any click or action"
+          ],
+          "description": "Active automation policy mode"
+        },
+        "autopilot.responseSpeed": {
+          "type": "string",
+          "default": "fast",
+          "enum": [
+            "instant",
+            "fast",
+            "comfortable",
+            "deliberate"
+          ],
+          "enumDescriptions": [
+            "Instant: 100ms delay",
+            "Fast: 250ms delay",
+            "Comfortable: 750ms delay",
+            "Deliberate: 1500ms delay"
+          ],
+          "description": "Automation response timing delay"
+        },
+        "autopilot.monitoringInterval": {
+          "type": "number",
+          "default": 1000,
+          "minimum": 50,
+          "maximum": 5000,
+          "description": "Background IDE inspection frequency in milliseconds (50ms - 5000ms)"
+        },
+        "autopilot.autoStartMonitoring": {
+          "type": "boolean",
+          "default": false,
+          "description": "Automatically start monitoring when VS Code or Google Antigravity starts"
+        },
+        "autopilot.enableFileChangeApproval": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable automated inspection and approval of pending code and file diffs"
+        },
+        "autopilot.enableTerminalApproval": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable automated inspection and approval of terminal run commands"
+        },
+        "autopilot.promptInspectionConfidenceThreshold": {
+          "type": "number",
+          "default": 0.6,
+          "minimum": 0.1,
+          "maximum": 1,
+          "description": "Minimum confidence required to suggest button approval"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run build",
+    "build:webview": "vite build",
+    "build:extension": "tsc -p tsconfig.extension.json",
+    "build": "npm run build:webview && npm run build:extension",
+    "build:renderer": "vite build",
+    "build:electron": "tsc -p tsconfig.electron.json",
+    "test": "tsc -p tsconfig.test.json && node --test dist-test/electron/tests/engine.test.js",
+    "package:vsix": "npx vsce package --no-dependencies"
+  },
+  "dependencies": {
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.10",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@types/vscode": "^1.85.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "@vscode/vsce": "^3.9.2",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^9.1.2",
+    "cross-env": "^7.0.3",
+    "electron": "^34.0.0",
+    "electron-builder": "^25.1.8",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}

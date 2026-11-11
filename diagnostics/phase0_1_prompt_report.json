@@ -1,0 +1,25 @@
+﻿{
+    "Timestamp":  "2026-11-02T20:33:54.0528632Z",
+    "TargetHwnd":  0,
+    "ProcessId":  0,
+    "WindowTitle":  null,
+    "WindowClass":  null,
+    "PromptFound":  false,
+    "DetectedPromptType":  "None",
+    "ContainerClassName":  null,
+    "ContainerBoundingRect":  null,
+    "RootSubtree":  null,
+    "OptionsIdentified":  [
+
+                          ],
+    "ExplicitRecommendedOption":  "None",
+    "CandidateSubmitButtons":  [
+
+                               ],
+    "CandidateCancelButtons":  [
+
+                               ],
+    "Warnings":  [
+                     "OpenDesktop(\u0027Default\u0027) failed. Error: 5"
+                 ]
+}

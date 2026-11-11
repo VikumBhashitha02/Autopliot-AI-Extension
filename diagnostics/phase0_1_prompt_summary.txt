@@ -1,0 +1,11 @@
+﻿=================================================================
+AUTOPILOT PROMPT SUBTREE INSPECTION SUMMARY
+Timestamp (UTC): 2026-11-02T20:33:54.0528632Z
+Target Window HWND: 0 (PID: 0)
+Window Title: 
+Prompt Detected: False
+Prompt Type: None
+Status: No live prompt modal or confirmation container was visible on screen.
+Warnings Encountered: 1
+  Warning: OpenDesktop('Default') failed. Error: 5
+=================================================================
