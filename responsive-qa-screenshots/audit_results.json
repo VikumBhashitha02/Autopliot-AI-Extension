@@ -1,0 +1,1620 @@
+[
+  {
+    "category": "required_resolutions",
+    "page": "dashboard",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "dashboard_mobile-375px_375x667.png",
+    "sizeKb": 72,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "autopilot",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "autopilot_mobile-375px_375x667.png",
+    "sizeKb": 46,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "agent",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "agent_mobile-375px_375x667.png",
+    "sizeKb": 49,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "rules",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "rules_mobile-375px_375x667.png",
+    "sizeKb": 45,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "prompts",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "prompts_mobile-375px_375x667.png",
+    "sizeKb": 47,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 4,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 375
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 375
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 375
+        }
+      ]
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "monitor",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "monitor_mobile-375px_375x667.png",
+    "sizeKb": 24,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "builder",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "builder_mobile-375px_375x667.png",
+    "sizeKb": 24,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "library",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "library_mobile-375px_375x667.png",
+    "sizeKb": 34,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "logs",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "logs_mobile-375px_375x667.png",
+    "sizeKb": 38,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "settings",
+    "resolution": "mobile-375px",
+    "width": 375,
+    "height": 667,
+    "file": "settings_mobile-375px_375x667.png",
+    "sizeKb": 45,
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "dashboard",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "dashboard_tablet-768px_768x1024.png",
+    "sizeKb": 169,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "autopilot",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "autopilot_tablet-768px_768x1024.png",
+    "sizeKb": 153,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "agent",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "agent_tablet-768px_768x1024.png",
+    "sizeKb": 131,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 2,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 793,
+          "docWidth": 768
+        },
+        {
+          "tagName": "SPAN",
+          "className": "",
+          "right": 777,
+          "docWidth": 768
+        }
+      ]
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "rules",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "rules_tablet-768px_768x1024.png",
+    "sizeKb": 133,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "prompts",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "prompts_tablet-768px_768x1024.png",
+    "sizeKb": 106,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 3,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 789,
+          "docWidth": 768
+        },
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 870,
+          "docWidth": 768
+        },
+        {
+          "tagName": "SPAN",
+          "className": "",
+          "right": 854,
+          "docWidth": 768
+        }
+      ]
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "monitor",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "monitor_tablet-768px_768x1024.png",
+    "sizeKb": 90,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "builder",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "builder_tablet-768px_768x1024.png",
+    "sizeKb": 73,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "library",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "library_tablet-768px_768x1024.png",
+    "sizeKb": 82,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 1,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 784,
+          "docWidth": 768
+        }
+      ]
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "logs",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "logs_tablet-768px_768x1024.png",
+    "sizeKb": 85,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 2,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 796,
+          "docWidth": 768
+        },
+        {
+          "tagName": "SPAN",
+          "className": "",
+          "right": 783,
+          "docWidth": 768
+        }
+      ]
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "settings",
+    "resolution": "tablet-768px",
+    "width": 768,
+    "height": 1024,
+    "file": "settings_tablet-768px_768x1024.png",
+    "sizeKb": 129,
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "dashboard",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "dashboard_laptop-1366px_1366x768.png",
+    "sizeKb": 183,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "autopilot",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "autopilot_laptop-1366px_1366x768.png",
+    "sizeKb": 151,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "agent",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "agent_laptop-1366px_1366x768.png",
+    "sizeKb": 125,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "rules",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "rules_laptop-1366px_1366x768.png",
+    "sizeKb": 129,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "prompts",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "prompts_laptop-1366px_1366x768.png",
+    "sizeKb": 115,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "monitor",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "monitor_laptop-1366px_1366x768.png",
+    "sizeKb": 100,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "builder",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "builder_laptop-1366px_1366x768.png",
+    "sizeKb": 83,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "library",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "library_laptop-1366px_1366x768.png",
+    "sizeKb": 94,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "logs",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "logs_laptop-1366px_1366x768.png",
+    "sizeKb": 97,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "settings",
+    "resolution": "laptop-1366px",
+    "width": 1366,
+    "height": 768,
+    "file": "settings_laptop-1366px_1366x768.png",
+    "sizeKb": 130,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1366,
+      "scrollWidth": 1366,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "dashboard",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "dashboard_desktop-1920px_1920x1080.png",
+    "sizeKb": 206,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "autopilot",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "autopilot_desktop-1920px_1920x1080.png",
+    "sizeKb": 191,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "agent",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "agent_desktop-1920px_1920x1080.png",
+    "sizeKb": 163,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "rules",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "rules_desktop-1920px_1920x1080.png",
+    "sizeKb": 172,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "prompts",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "prompts_desktop-1920px_1920x1080.png",
+    "sizeKb": 133,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "monitor",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "monitor_desktop-1920px_1920x1080.png",
+    "sizeKb": 127,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "builder",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "builder_desktop-1920px_1920x1080.png",
+    "sizeKb": 100,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "library",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "library_desktop-1920px_1920x1080.png",
+    "sizeKb": 110,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "logs",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "logs_desktop-1920px_1920x1080.png",
+    "sizeKb": 112,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "required_resolutions",
+    "page": "settings",
+    "resolution": "desktop-1920px",
+    "width": 1920,
+    "height": 1080,
+    "file": "settings_desktop-1920px_1920x1080.png",
+    "sizeKb": 178,
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "special_state",
+    "page": "sidebar_open",
+    "width": 375,
+    "height": 667,
+    "file": "special_mobile_sidebar_open_375x667.png",
+    "status": "PASS"
+  },
+  {
+    "category": "special_state",
+    "page": "approval_modal_mobile",
+    "width": 375,
+    "height": 667,
+    "file": "special_approval_modal_mobile_375x667.png",
+    "status": "PASS"
+  },
+  {
+    "category": "special_state",
+    "page": "approval_modal_desktop",
+    "width": 1920,
+    "height": 1080,
+    "file": "special_approval_modal_desktop_1920x1080.png",
+    "status": "PASS"
+  },
+  {
+    "category": "special_state",
+    "page": "logs_stream",
+    "width": 375,
+    "height": 667,
+    "file": "special_logs_diagnostic_stream_375x667.png",
+    "status": "PASS"
+  },
+  {
+    "category": "webview_widths",
+    "page": "dashboard",
+    "resolution": "webview-280px",
+    "width": 280,
+    "height": 800,
+    "file": "dashboard_webview-280px_280x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 280,
+      "scrollWidth": 280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "autopilot",
+    "resolution": "webview-280px",
+    "width": 280,
+    "height": 800,
+    "file": "autopilot_webview-280px_280x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 280,
+      "scrollWidth": 280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "prompts",
+    "resolution": "webview-280px",
+    "width": 280,
+    "height": 800,
+    "file": "prompts_webview-280px_280x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 280,
+      "scrollWidth": 280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 5,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 280
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 280
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 280
+        }
+      ]
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "dashboard",
+    "resolution": "webview-320px",
+    "width": 320,
+    "height": 800,
+    "file": "dashboard_webview-320px_320x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "autopilot",
+    "resolution": "webview-320px",
+    "width": 320,
+    "height": 800,
+    "file": "autopilot_webview-320px_320x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "prompts",
+    "resolution": "webview-320px",
+    "width": 320,
+    "height": 800,
+    "file": "prompts_webview-320px_320x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 5,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 320
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 320
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 320
+        }
+      ]
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "dashboard",
+    "resolution": "webview-360px",
+    "width": 360,
+    "height": 800,
+    "file": "dashboard_webview-360px_360x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 360,
+      "scrollWidth": 360,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "autopilot",
+    "resolution": "webview-360px",
+    "width": 360,
+    "height": 800,
+    "file": "autopilot_webview-360px_360x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 360,
+      "scrollWidth": 360,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "prompts",
+    "resolution": "webview-360px",
+    "width": 360,
+    "height": 800,
+    "file": "prompts_webview-360px_360x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 360,
+      "scrollWidth": 360,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 4,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 360
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 360
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 360
+        }
+      ]
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "dashboard",
+    "resolution": "webview-420px",
+    "width": 420,
+    "height": 800,
+    "file": "dashboard_webview-420px_420x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 420,
+      "scrollWidth": 420,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "autopilot",
+    "resolution": "webview-420px",
+    "width": 420,
+    "height": 800,
+    "file": "autopilot_webview-420px_420x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 420,
+      "scrollWidth": 420,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "prompts",
+    "resolution": "webview-420px",
+    "width": 420,
+    "height": 800,
+    "file": "prompts_webview-420px_420x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 420,
+      "scrollWidth": 420,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 4,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 420
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 420
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 420
+        }
+      ]
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "dashboard",
+    "resolution": "webview-600px",
+    "width": 600,
+    "height": 800,
+    "file": "dashboard_webview-600px_600x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "autopilot",
+    "resolution": "webview-600px",
+    "width": 600,
+    "height": 800,
+    "file": "autopilot_webview-600px_600x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "webview_widths",
+    "page": "prompts",
+    "resolution": "webview-600px",
+    "width": 600,
+    "height": 800,
+    "file": "prompts_webview-600px_600x800.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 4,
+      "overflowingSample": [
+        {
+          "tagName": "DIV",
+          "className": "flex items-center gap-3.5 min-w-0",
+          "right": 603,
+          "docWidth": 600
+        },
+        {
+          "tagName": "DIV",
+          "className": "min-w-0",
+          "right": 603,
+          "docWidth": 600
+        },
+        {
+          "tagName": "DIV",
+          "className": "flex flex-wrap items-center gap-2",
+          "right": 603,
+          "docWidth": 600
+        }
+      ]
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "small-mobile",
+    "width": 320,
+    "height": 568,
+    "file": "dashboard_small-mobile_320x568.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "small-mobile",
+    "width": 320,
+    "height": 568,
+    "file": "agent_small-mobile_320x568.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "small-mobile",
+    "width": 320,
+    "height": 568,
+    "file": "settings_small-mobile_320x568.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 320,
+      "scrollWidth": 320,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "mobile",
+    "width": 375,
+    "height": 667,
+    "file": "dashboard_mobile_375x667.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "mobile",
+    "width": 375,
+    "height": 667,
+    "file": "agent_mobile_375x667.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "mobile",
+    "width": 375,
+    "height": 667,
+    "file": "settings_mobile_375x667.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 375,
+      "scrollWidth": 375,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "large-mobile",
+    "width": 425,
+    "height": 900,
+    "file": "dashboard_large-mobile_425x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 425,
+      "scrollWidth": 425,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "large-mobile",
+    "width": 425,
+    "height": 900,
+    "file": "agent_large-mobile_425x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 425,
+      "scrollWidth": 425,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "large-mobile",
+    "width": 425,
+    "height": 900,
+    "file": "settings_large-mobile_425x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 425,
+      "scrollWidth": 425,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "small-tablet",
+    "width": 600,
+    "height": 900,
+    "file": "dashboard_small-tablet_600x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "small-tablet",
+    "width": 600,
+    "height": 900,
+    "file": "agent_small-tablet_600x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "small-tablet",
+    "width": 600,
+    "height": 900,
+    "file": "settings_small-tablet_600x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 600,
+      "scrollWidth": 600,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "tablet",
+    "width": 768,
+    "height": 1024,
+    "file": "dashboard_tablet_768x1024.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "tablet",
+    "width": 768,
+    "height": 1024,
+    "file": "agent_tablet_768x1024.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 2,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 793,
+          "docWidth": 768
+        },
+        {
+          "tagName": "SPAN",
+          "className": "",
+          "right": 777,
+          "docWidth": 768
+        }
+      ]
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "tablet",
+    "width": 768,
+    "height": 1024,
+    "file": "settings_tablet_768x1024.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 768,
+      "scrollWidth": 768,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "small-laptop",
+    "width": 1024,
+    "height": 768,
+    "file": "dashboard_small-laptop_1024x768.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1024,
+      "scrollWidth": 1024,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "small-laptop",
+    "width": 1024,
+    "height": 768,
+    "file": "agent_small-laptop_1024x768.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1024,
+      "scrollWidth": 1024,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 1,
+      "overflowingSample": [
+        {
+          "tagName": "BUTTON",
+          "className": "flex-1 sm:flex-none justify-center flex items-cent",
+          "right": 1041,
+          "docWidth": 1024
+        }
+      ]
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "small-laptop",
+    "width": 1024,
+    "height": 768,
+    "file": "settings_small-laptop_1024x768.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1024,
+      "scrollWidth": 1024,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "laptop",
+    "width": 1280,
+    "height": 720,
+    "file": "dashboard_laptop_1280x720.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1280,
+      "scrollWidth": 1280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "laptop",
+    "width": 1280,
+    "height": 720,
+    "file": "agent_laptop_1280x720.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1280,
+      "scrollWidth": 1280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "laptop",
+    "width": 1280,
+    "height": 720,
+    "file": "settings_laptop_1280x720.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1280,
+      "scrollWidth": 1280,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "desktop",
+    "width": 1440,
+    "height": 900,
+    "file": "dashboard_desktop_1440x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1440,
+      "scrollWidth": 1440,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "desktop",
+    "width": 1440,
+    "height": 900,
+    "file": "agent_desktop_1440x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1440,
+      "scrollWidth": 1440,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "desktop",
+    "width": 1440,
+    "height": 900,
+    "file": "settings_desktop_1440x900.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1440,
+      "scrollWidth": 1440,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "large-desktop",
+    "width": 1920,
+    "height": 1080,
+    "file": "dashboard_large-desktop_1920x1080.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "large-desktop",
+    "width": 1920,
+    "height": 1080,
+    "file": "agent_large-desktop_1920x1080.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "large-desktop",
+    "width": 1920,
+    "height": 1080,
+    "file": "settings_large-desktop_1920x1080.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 1920,
+      "scrollWidth": 1920,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "dashboard",
+    "resolution": "ultrawide-desktop",
+    "width": 2560,
+    "height": 1440,
+    "file": "dashboard_ultrawide-desktop_2560x1440.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 2560,
+      "scrollWidth": 2560,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "agent",
+    "resolution": "ultrawide-desktop",
+    "width": 2560,
+    "height": 1440,
+    "file": "agent_ultrawide-desktop_2560x1440.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 2560,
+      "scrollWidth": 2560,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  },
+  {
+    "category": "all_exact_viewports",
+    "page": "settings",
+    "resolution": "ultrawide-desktop",
+    "width": 2560,
+    "height": 1440,
+    "file": "settings_ultrawide-desktop_2560x1440.png",
+    "status": "PASS",
+    "health": {
+      "docWidth": 2560,
+      "scrollWidth": 2560,
+      "hasHorizontalScroll": false,
+      "overflowingCount": 0,
+      "overflowingSample": []
+    }
+  }
+]

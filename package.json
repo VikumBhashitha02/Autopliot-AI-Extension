@@ -1,9 +1,9 @@
 {
-  "name": "autopilot-ai",
-  "displayName": "AutoPilot AI",
+  "name": "autopilot-ai02",
+  "displayName": "VB.autopilot-ai02",
   "description": "Autonomous AI workflow automation, prompt inspection, and file change approval for Visual Studio Code & Google Antigravity IDE.",
   "version": "1.0.0",
-  "publisher": "autopilot-ai",
+  "publisher": "VikumBhashitha",
   "author": "AutoPilot AI (V.B)",
   "license": "MIT",
   "icon": "media/icons/autopilot.png",
@@ -196,6 +196,7 @@
     "electron": "^34.0.0",
     "electron-builder": "^25.1.8",
     "postcss": "^8.5.1",
+    "puppeteer": "^24.43.1",
     "tailwindcss": "^3.4.17",
     "typescript": "^5.7.3",
     "vite": "^6.0.7"

@@ -133,8 +133,45 @@ const initialAgentStatus: AgentStatus = {
 const AppContext = createContext<AppContextType | null>(null);
 
 export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-  const [activeTab, setActiveTab] = useState<NavigationTab>('autopilot');
-  const [sidebarOpen, setSidebarOpen] = useState<boolean>(false);
+  const getInitialStateFromHash = () => {
+    let initialTab: NavigationTab = 'autopilot';
+    let initialSidebar = false;
+    let initialApproval = null;
+
+    if (typeof window !== 'undefined' && window.location.hash) {
+      const parts = window.location.hash.replace('#', '').split('&');
+      const tabCandidate = parts[0] as NavigationTab;
+      const validTabs: NavigationTab[] = [
+        'autopilot',
+        'rules',
+        'dashboard',
+        'builder',
+        'agent',
+        'prompts',
+        'monitor',
+        'logs',
+        'library',
+        'settings',
+      ];
+      if (validTabs.includes(tabCandidate)) {
+        initialTab = tabCandidate;
+      }
+      if (parts.includes('sidebar=open')) {
+        initialSidebar = true;
+      }
+      if (parts.includes('modal=approval')) {
+        initialApproval = {
+          stepId: 'step_verify',
+          prompt: 'AutoPilot AI requires authorization to proceed with autonomous file modifications in Antigravity IDE workspace.',
+        };
+      }
+    }
+    return { initialTab, initialSidebar, initialApproval };
+  };
+
+  const hashState = getInitialStateFromHash();
+  const [activeTab, setActiveTab] = useState<NavigationTab>(hashState.initialTab);
+  const [sidebarOpen, setSidebarOpen] = useState<boolean>(hashState.initialSidebar);
   const [workflows, setWorkflows] = useState<WorkflowDefinition[]>([]);
   const [selectedWorkflow, setSelectedWorkflow] = useState<WorkflowDefinition | null>(null);
   const [runs, setRuns] = useState<WorkflowExecutionRecord[]>([]);
@@ -144,8 +181,19 @@ export const AppProvider: React.FC<{ children: ReactNode }> = ({ children }) => 
   const [theme, setTheme] = useState<'dark' | 'light'>('dark');
   const [toasts, setToasts] = useState<Toast[]>([]);
   const [logs, setLogs] = useState<AppLogEntry[]>([]);
-  const [pendingApproval, setPendingApproval] = useState<{ stepId: string; prompt: string; metadata?: any } | null>(null);
+  const [pendingApproval, setPendingApproval] = useState<{ stepId: string; prompt: string; metadata?: any } | null>(hashState.initialApproval);
   const approvalResolverRef = React.useRef<((val: boolean) => void) | null>(null);
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const state = getInitialStateFromHash();
+      setActiveTab(state.initialTab);
+      if (state.initialSidebar) setSidebarOpen(true);
+      if (state.initialApproval) setPendingApproval(state.initialApproval);
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
 
   const toggleSidebar = () => {
     setSidebarOpen((prev) => !prev);

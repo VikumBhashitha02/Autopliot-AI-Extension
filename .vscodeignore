@@ -24,4 +24,6 @@ node_modules/**
 *.bak
 *.release_backup
 .gitignore
+responsive-qa-screenshots/**
+AUTOPILOT_AI_*.md
 
