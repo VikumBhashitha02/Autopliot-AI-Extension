@@ -2,7 +2,7 @@
 ### For Visual Studio Code & Google Antigravity IDE
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/autopilot-ai/autopilot-ai-extension)
+[![Version](https://img.shields.io/badge/version-1.0.1-green.svg)](https://github.com/autopilot-ai/autopilot-ai-extension)
 [![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.85.0-blue)](https://code.visualstudio.com/)
 [![Google Antigravity](https://img.shields.io/badge/Google%20Antigravity-Supported-brightgreen)](https://antigravity.google)
 
@@ -29,7 +29,7 @@ Now you can just sit back, relax, build cool projects, and let your robot friend
 
 ## 🌈 Why You Will Love It
 
-- 🎁 **100% Free :** No credit cards, no trials, no subscriptions, and no paywalls.
+- 🎁 **100% Free this version :** No credit cards, no trials, no subscriptions, and no paywalls for this now.
 - 🪪 **No Account Needed:** No passwords, no email sign-ups, and no logging in. Just open and play!
 - 🛡️ **Super Safe (Kid-Proof):** Built with an unbreakable **Safety Shield**. It **NEVER** touches dangerous buttons like "Delete", "Format", or "Discard".
 - 🛑 **Big Red Panic Button:** If you ever want it to stop immediately, one click halts everything in less than a tenth of a second.
@@ -43,7 +43,7 @@ Now you can just sit back, relax, build cool projects, and let your robot friend
 1. Open **VS Code** or **Google Antigravity IDE**.
 2. Press `Ctrl + Shift + P` on your keyboard (or `Cmd + Shift + P` on Mac) to open the magic search bar at the top.
 3. Type: `Extensions: Install from VSIX...` and hit **Enter**.
-4. Choose the file named **`autopilot-ai02-1.0.0.vsix`**.
+4. Choose the file named **`autopilot-ai02-1.0.1.vsix`**.
 5. 🎉 That’s it! Look on the far-left sidebar—you will see the shiny new **AutoPilot AI** icon!
 
 ### Method 2: The Command Line Way (For Ninjas!)
@@ -51,10 +51,10 @@ Open your terminal and paste one of these lines:
 
 ```bash
 # For Visual Studio Code
-code --install-extension autopilot-ai02-1.0.0.vsix
+code --install-extension autopilot-ai02-1.0.1.vsix
 
 # For Google Antigravity IDE
-antigravity --install-extension autopilot-ai02-1.0.0.vsix
+antigravity --install-extension autopilot-ai02-1.0.1.vsix
 ```
 
 ---

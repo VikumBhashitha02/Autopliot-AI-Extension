@@ -2,6 +2,13 @@
 
 All notable changes to the "autopilot-ai" extension will be documented in this file.
 
+## [1.0.1] - 2026-11-13
+
+### Marketplace Release Alignment
+- **Marketplace Namespace Resolution**: Configured unique package name `autopilot-ai02` and display name `Autopilot AI Assistant` under publisher `VikumBhashitha` for Visual Studio Marketplace compliance.
+- **Packaging Optimization**: Configured `.vscodeignore` to exclude internal QA artifacts and responsive screenshot test suites, reducing distribution package size to ~454 KB.
+- **Documentation & Verification Updates**: Updated installation guides, command references, and manual verification scripts for version 1.0.1.
+
 ## [1.0.0] - 2026-11-12
 
 ### Initial Extension Release

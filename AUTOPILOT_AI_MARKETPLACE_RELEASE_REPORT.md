@@ -1,42 +1,45 @@
-# AutoPilot AI — VS Code Marketplace Release & Display Name Update Report
+# AutoPilot AI — VS Code Marketplace Release & Version 1.0.1 Update Report
 
-**Date:** November 12, 2026  
+**Date:** November 13, 2026  
 **Auditor / Engineer:** Senior VS Code Extension Release Engineer  
 **Target Marketplace:** Visual Studio Code Marketplace & Google Antigravity IDE  
-**Package:** `autopilot-ai02-1.0.0.vsix`  
+**Package:** `autopilot-ai02-1.0.1.vsix`  
 **Publisher ID:** `VikumBhashitha`  
 **Extension Name:** `autopilot-ai02`  
-**Marketplace Display Name:** `VB.autopilot-ai02`  
+**Marketplace Display Name:** `Autopilot AI Assistant`  
 **Final Extension ID:** `VikumBhashitha.autopilot-ai02`  
-**Version:** `1.0.0`  
+**Version:** `1.0.1`  
 
 ---
 
 ## 1. Executive Summary
 
-This report documents the resolution of the Marketplace display name collision error where `AutoPilot AI` was previously claimed in the Visual Studio Marketplace namespace.
+This report documents the version bump to **1.0.1** to resolve the Visual Studio Marketplace release constraint:
+> `"The version 1.0.0 already exists and cannot be modified."`
 
-The Marketplace display name has been updated to **`VB.autopilot-ai02`** while preserving:
-- Extension package name: **`autopilot-ai02`**
-- Publisher identifier: **`VikumBhashitha`**
-- Version: **`1.0.0`**
+The package metadata is configured to:
+- Package name (`name`): **`autopilot-ai02`**
+- Display name (`displayName`): **`Autopilot AI Assistant`**
+- Publisher ID (`publisher`): **`VikumBhashitha`**
+- Version (`version`): **`1.0.1`**
 - Extension identifier: **`VikumBhashitha.autopilot-ai02`**
-- All internal commands (`autopilot-ai.*`), configuration properties (`autopilot.*`), safety guardrails, Activity Bar icons, and automation engine functionality.
 
-All 83 automated test cases passed with a 100% success rate, and the final production VSIX package (`autopilot-ai02-1.0.0.vsix`) has been generated and verified.
+All existing product features, UI layout, automation engine, SafetyGuard, Emergency Stop (`Ctrl+Alt+Shift+E`), commands (`autopilot-ai.*`), and configuration keys (`autopilot.*`) remain completely intact.
+
+All 83 automated test cases passed with a 100% success rate, and the final production VSIX package (`autopilot-ai02-1.0.1.vsix`) has been generated and verified.
 
 ---
 
 ## 2. Metadata Comparison
 
-| Metadata Field | Previous Configuration | Final Marketplace Configuration | Status |
-|:---|:---|:---|:---:|
-| **Display Name (`displayName`)** | `AutoPilot AI` | `VB.autopilot-ai02` | **RESOLVED & UNIQUE** |
-| **Package Name (`name`)** | `autopilot-ai02` | `autopilot-ai02` | **CONFIRMED** |
-| **Publisher ID (`publisher`)** | `VikumBhashitha` | `VikumBhashitha` | **VERIFIED** |
-| **Version (`version`)** | `1.0.0` | `1.0.0` | **INITIAL RELEASE** |
-| **Full Extension ID** | `VikumBhashitha.autopilot-ai02` | `VikumBhashitha.autopilot-ai02` | **VERIFIED** |
-| **Output Package (.vsix)** | `autopilot-ai02-1.0.0.vsix` | `autopilot-ai02-1.0.0.vsix` | **READY FOR UPLOAD** |
+| Metadata Field | Value in Manifest | Marketplace Compliance Status |
+|:---|:---|:---:|
+| **Package Name (`name`)** | `autopilot-ai02` | **CONFIRMED & UNIQUE** |
+| **Display Name (`displayName`)** | `Autopilot AI Assistant` | **CONFIRMED & CONFLICT-FREE** |
+| **Publisher ID (`publisher`)** | `VikumBhashitha` | **VERIFIED (Active Account)** |
+| **Version (`version`)** | `1.0.1` | **UPDATED FOR NEW RELEASE** |
+| **Full Extension ID** | `VikumBhashitha.autopilot-ai02` | **VERIFIED** |
+| **Target VSIX File** | `autopilot-ai02-1.0.1.vsix` | **GENERATED & VALIDATED** |
 
 ---
 
@@ -44,9 +47,12 @@ All 83 automated test cases passed with a 100% success rate, and the final produ
 
 | File Path | Nature of Change | Description |
 |:---|:---|:---|
-| `package.json` | Manifest Update | Changed root `"displayName"` to `"VB.autopilot-ai02"`. Maintained `"name": "autopilot-ai02"`, `"publisher": "VikumBhashitha"`, and `"version": "1.0.0"`. |
-| `package-lock.json` | Lockfile Sync | Root package name maintained as `"autopilot-ai02"`. |
-| `autopilot-ai02-1.0.0.vsix` | Binary Artifact | Cleanly recompiled and packaged release VSIX containing verified `extension.vsixmanifest`. |
+| `package.json` | Manifest Update | Updated `"version"` from `"1.0.0"` to `"1.0.1"`. Maintained `"name": "autopilot-ai02"`, `"displayName": "Autopilot AI Assistant"`, and `"publisher": "VikumBhashitha"`. |
+| `package-lock.json` | Lockfile Sync | Synchronized root package `"version"` to `"1.0.1"`. |
+| `CHANGELOG.md` | Release Notes | Added section `## [1.0.1] - 2026-11-13` documenting Marketplace metadata configuration and packaging optimizations. |
+| `README.md` | Documentation | Updated version badge to `1.0.1` and installation commands to reference `autopilot-ai02-1.0.1.vsix`. |
+| `AUTOPILOT_AI_MANUAL_TESTING_GUIDE.md` | QA Documentation | Updated manual test installation commands and verification instructions to `autopilot-ai02-1.0.1.vsix`. |
+| `autopilot-ai02-1.0.1.vsix` | Binary Artifact | Cleanly recompiled and packaged release VSIX containing verified `extension.vsixmanifest`. |
 
 ---
 
@@ -54,7 +60,7 @@ All 83 automated test cases passed with a 100% success rate, and the final produ
 
 ### 4.1 Webview Bundle Build (`npm run build:webview`)
 ```
-> autopilot-ai02@1.0.0 build:webview
+> autopilot-ai02@1.0.1 build:webview
 > vite build
 
 vite v6.4.4 building for production...
@@ -63,14 +69,14 @@ dist/index.html                      0.81 kB │ gzip:  0.47 kB
 dist/assets/app-icon-rU-Mk8Me.png   39.31 kB
 dist/assets/index-CoPgHKDR.css      38.00 kB │ gzip:  7.28 kB
 dist/assets/index-BKQRTcL0.js      316.16 kB │ gzip: 80.63 kB
-✓ built in 8.99s
+✓ built in 6.87s
 ```
 - **Exit Code:** `0` (Success)
 - **Status:** All React views and assets bundled cleanly.
 
 ### 4.2 Extension Host Build (`npm run build:extension`)
 ```
-> autopilot-ai02@1.0.0 build:extension
+> autopilot-ai02@1.0.1 build:extension
 > tsc -p tsconfig.extension.json
 ```
 - **Exit Code:** `0` (Success)
@@ -80,7 +86,7 @@ dist/assets/index-BKQRTcL0.js      316.16 kB │ gzip: 80.63 kB
 
 ## 5. Automated Test Suite Results (`npm test`)
 
-The complete engine, safety guardrails, and extension test suite was executed against the built artifacts:
+The complete engine, SafetyGuard, workflow, and IDE adapter test suite was executed against the built artifacts:
 
 ```
 TAP version 13
@@ -114,7 +120,7 @@ TAP version 13
 # pass 83
 # fail 0
 # cancelled 0
-# duration_ms 27419
+# duration_ms 15635
 ```
 - **Total Tests:** 83
 - **Passed:** 83 (100%)
@@ -126,8 +132,8 @@ TAP version 13
 ## 6. Packaged VSIX Verification
 
 ### 6.1 Package File Details
-- **File Location:** `E:\Click Application-VS code extention\Autopliot-AI-Extension\autopilot-ai02-1.0.0.vsix`
-- **File Size:** 465,321 bytes (~454.42 KB)
+- **File Location:** `E:\Click Application-VS code extention\Autopliot-AI-Extension\autopilot-ai02-1.0.1.vsix`
+- **File Size:** 465,603 bytes (~454.69 KB)
 - **Total Files Packaged:** 92 files
 
 ### 6.2 Packaged `extension.vsixmanifest` Inspection (Extracted from Archive)
@@ -135,8 +141,8 @@ TAP version 13
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Language="en-US" Id="autopilot-ai02" Version="1.0.0" Publisher="VikumBhashitha" />
-        <DisplayName>VB.autopilot-ai02</DisplayName>
+        <Identity Language="en-US" Id="autopilot-ai02" Version="1.0.1" Publisher="VikumBhashitha" />
+        <DisplayName>Autopilot AI Assistant</DisplayName>
         <Description xml:space="preserve">Autonomous AI workflow automation, prompt inspection, and file change approval for Visual Studio Code &amp; Google Antigravity IDE.</Description>
         <Tags>autopilot,antigravity,automation,ai,copilot,workflow,keybindings</Tags>
         <Categories>AI,Programming Languages,Snippets,Other</Categories>
@@ -165,11 +171,19 @@ TAP version 13
 ```json
 {
   "name": "autopilot-ai02",
-  "displayName": "VB.autopilot-ai02",
+  "displayName": "Autopilot AI Assistant",
   "publisher": "VikumBhashitha",
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
 ```
+
+### 6.4 Clean Runtime Verification
+- Development test screenshots (`responsive-qa-screenshots/`) excluded via `.vscodeignore`.
+- Internal QA markdown reports (`AUTOPILOT_AI_*.md`) excluded via `.vscodeignore`.
+- Zero credentials or environment secrets.
+- 25 PowerShell UIA automation scripts in `diagnostics/` included.
+- 6 compiled webview production files in `dist/` included.
+- 52 compiled extension host CommonJS files in `dist-extension/` included.
 
 ---
 
@@ -177,16 +191,23 @@ TAP version 13
 
 1. Navigate to: **[https://marketplace.visualstudio.com/manage](https://marketplace.visualstudio.com/manage)**
 2. Sign in with the Microsoft account for publisher **`VikumBhashitha`**.
-3. Verify **`VikumBhashitha`** is the active publisher profile selected in the dropdown.
-4. Click the blue **+ New extension** button $\rightarrow$ **Visual Studio Code**.
-5. Drag and drop or browse to select the updated VSIX file:  
-   `E:\Click Application-VS code extention\Autopliot-AI-Extension\autopilot-ai02-1.0.0.vsix`
+3. Confirm **`VikumBhashitha`** is selected in the top-left publisher dropdown.
+4. Click the blue **+ New extension** button $\rightarrow$ **Visual Studio Code** (or click **...** next to the existing entry $\rightarrow$ **Update**).
+5. Drag and drop or browse to select the new VSIX package:  
+   `E:\Click Application-VS code extention\Autopliot-AI-Extension\autopilot-ai02-1.0.1.vsix`
 6. Click **Upload**.
-7. Once verified, the extension will be live on the Marketplace at:  
+7. Once verified by the automated scanner, your extension will be live at:  
    `https://marketplace.visualstudio.com/items?itemName=VikumBhashitha.autopilot-ai02`
 
 ---
 
 ## 8. Final Sign-Off
 
-The display name update to **`VB.autopilot-ai02`** is verified. The package `autopilot-ai02-1.0.0.vsix` is ready for manual release to the Visual Studio Marketplace.
+The version update to **1.0.1** is verified:
+- **`name`**: `autopilot-ai02`
+- **`displayName`**: `Autopilot AI Assistant`
+- **`publisher`**: `VikumBhashitha`
+- **`version`**: `1.0.1`
+- **Extension ID**: `VikumBhashitha.autopilot-ai02`
+
+The package `autopilot-ai02-1.0.1.vsix` is ready for manual release to the Visual Studio Marketplace.

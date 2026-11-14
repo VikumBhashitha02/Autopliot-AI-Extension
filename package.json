@@ -1,8 +1,8 @@
 {
   "name": "autopilot-ai02",
-  "displayName": "VB.autopilot-ai02",
+  "displayName": "Autopilot AI Assistant",
   "description": "Autonomous AI workflow automation, prompt inspection, and file change approval for Visual Studio Code & Google Antigravity IDE.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "VikumBhashitha",
   "author": "AutoPilot AI (V.B)",
   "license": "MIT",

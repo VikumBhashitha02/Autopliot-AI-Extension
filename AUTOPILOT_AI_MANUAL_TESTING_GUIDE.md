@@ -1,6 +1,6 @@
 # AutoPilot AI v1.0.0 — Manual Testing & Field Verification Guide
 
-This guide provides exact, step-by-step instructions for QA Engineers to manually test and verify the **AutoPilot AI Extension** (`autopilot-ai02-1.0.0.vsix`) across Visual Studio Code, Google Antigravity IDE, Windows UI Automation, macOS, and Linux.
+This guide provides exact, step-by-step instructions for QA Engineers to manually test and verify the **AutoPilot AI Extension** (`autopilot-ai02-1.0.1.vsix`) across Visual Studio Code, Google Antigravity IDE, Windows UI Automation, macOS, and Linux.
 
 ---
 
@@ -12,14 +12,14 @@ This guide provides exact, step-by-step instructions for QA Engineers to manuall
 - **Commands**:
   ```bash
   # From project root:
-  code --install-extension autopilot-ai02-1.0.0.vsix
+  code --install-extension autopilot-ai02-1.0.1.vsix
   ```
 - **Alternative GUI Steps**:
   1. Open Visual Studio Code.
   2. Press `Ctrl+Shift+X` (macOS: `Cmd+Shift+X`) to open Extensions view.
   3. Click the `...` (Views and More Actions) menu in the top right.
   4. Select **Install from VSIX...**
-  5. Select `autopilot-ai02-1.0.0.vsix`.
+  5. Select `autopilot-ai02-1.0.1.vsix`.
 - **Expected Result**: Notification appears: `Completed installing autopilot-ai extension from VSIX.`
 - **Verification**: Run `code --list-extensions | grep autopilot-ai`. It should display `VikumBhashitha.autopilot-ai02`.
 
@@ -105,9 +105,9 @@ This guide provides exact, step-by-step instructions for QA Engineers to manuall
 - **Steps**:
   ```bash
   # Command line installation:
-  antigravity --install-extension autopilot-ai02-1.0.0.vsix
+  antigravity --install-extension autopilot-ai02-1.0.1.vsix
   ```
-  Or in Antigravity GUI: Command Palette (`Ctrl+Shift+P`) -> **Extensions: Install from VSIX...** -> select `autopilot-ai02-1.0.0.vsix`.
+  Or in Antigravity GUI: Command Palette (`Ctrl+Shift+P`) -> **Extensions: Install from VSIX...** -> select `autopilot-ai02-1.0.1.vsix`.
 - **Expected Result**: Antigravity accepts the VSIX, registers the Activity Bar icon, and activates `AutoPilotViewProvider`.
 
 ---
@@ -183,7 +183,7 @@ This guide provides exact, step-by-step instructions for QA Engineers to manuall
 ### Test 4.1: Graceful Limitation Verification
 - **Objective**: Ensure the extension runs safely on macOS and Linux without crashing on unsupported Windows APIs.
 - **Steps**:
-  1. Install `autopilot-ai02-1.0.0.vsix` on macOS or Linux.
+  1. Install `autopilot-ai02-1.0.1.vsix` on macOS or Linux.
   2. Launch VS Code and open the AutoPilot AI sidebar.
   3. Run command: `AutoPilot AI: Start Monitoring`.
 - **Expected Result**:
