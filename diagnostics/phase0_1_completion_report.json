@@ -1,0 +1,33 @@
+﻿{
+    "Timestamp":  "2026-11-03T14:16:46.4813842Z",
+    "TargetHwnd":  0,
+    "ProcessId":  0,
+    "WindowTitle":  null,
+    "TotalWindowsScanned":  2,
+    "ScannedWindowsSummary":  [
+                                  "HWND:263638|PID:21316|Title:canva.com/s/designs?query=click+ai and 4 more pages - Personal - Microsoft​ Edge",
+                                  "HWND:198936|PID:14256|Title:Click Application - Antigravity IDE - README.md"
+                              ],
+    "PromptFound":  false,
+    "DialogContainerClass":  "",
+    "DialogBounds":  "",
+    "AvailableOptions":  [
+
+                         ],
+    "TargetOptionFound":  "None",
+    "TargetOptionControlType":  null,
+    "HasExplicitRecommendation":  false,
+    "OptionInitiallySelected":  false,
+    "ActionTakenOnOption":  "None",
+    "OptionSelectedSuccessfully":  false,
+    "SubmitButtonFound":  "None",
+    "SubmitButtonInitiallyEnabled":  false,
+    "ActionTakenOnSubmit":  "None",
+    "DialogClosedAfterAction":  false,
+    "FinalStatus":  "NO_PROMPT_VISIBLE",
+    "Logs":  [
+                 "Scanning 1 target window(s) for active prompts...",
+                 "[Window 1/1] Checking PID 14256: \u0027Click Application - Antigravity IDE - README.md\u0027 (HWND 198936)",
+                 "Scanned all target windows. No active interactive prompt detected."
+             ]
+}

@@ -1,0 +1,3243 @@
+﻿{
+    "Timestamp":  "2026-10-19T06:15:54.5664297Z",
+    "TargetHwnd":  328482,
+    "ProcessId":  22216,
+    "WindowTitle":  "Click Application - Antigravity IDE - Inspect Uia",
+    "WindowClass":  "Chrome_WidgetWin_1",
+    "WindowBoundingRect":  "210,40,1500,1000",
+    "PromptDialogDetected":  false,
+    "RecommendationMarkerFound":  "None",
+    "SubmitCandidateButtons":  [
+
+                               ],
+    "TotalElementsScanned":  1093,
+    "Elements":  [
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "Intermediate D3D Window",
+                         "IsEnabled":  false,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Click Application - Antigravity IDE - Inspect Uia",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "RootView",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "NonClientView",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "WinFrameView",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "WinCaptionButtonContainer",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1538,41,171,42",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Minimize",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "WinCaptionButton",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1537,41,57,42",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Maximize",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "WinCaptionButton",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1593,41,59,42",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "WinCaptionButton",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1651,41,58,42",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "ClientView",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "View",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "View",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "View",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Pane",
+                         "AutomationId":  "",
+                         "ClassName":  "file-icons-enabled monaco-enable-motion monaco-workbench windows chromium nopanel vs-dark vscode-theme-defaults-themes-dark_modern-json",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,40,1500,1000",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,81,1500,6",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,81,1500,6",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,1010,1500,5",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Click Application - Antigravity IDE - Inspect Uia",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "810,50,311,21",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Customize Layout...",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-configure-layout-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1257,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Toggle Primary Side Bar (Ctrl+B)",
+                         "ControlType":  "ControlType.CheckBox",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label checked codicon codicon-panel-left",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1287,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "ValuePatternIdentifiers.Pattern",
+                                                   "TogglePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Toggle Panel (Ctrl+J)",
+                         "ControlType":  "ControlType.CheckBox",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-panel-layout-icon-off",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1317,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "ValuePatternIdentifiers.Pattern",
+                                                   "TogglePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Toggle Agent (Ctrl+Alt+B)",
+                         "ControlType":  "ControlType.CheckBox",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label checked codicon codicon-layout-sidebar-right",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1347,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "ValuePatternIdentifiers.Pattern",
+                                                   "TogglePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Quick Open",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-search",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1377,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Open Browser (Preview)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-chrome",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1418,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Editor-Specific Settings",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-gear",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1448,47,29,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Profile",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-item icon antigravity-profile",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1478,45,55,33",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Profile",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-chevron-down",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1503,47,25,29",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1507,51,21,21",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash vertical disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "260,83,5,930",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash vertical",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "635,83,5,930",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash vertical maximum",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1332,83,6,930",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash vertical disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1707,83,6,930",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Explorer (Ctrl+Shift+E)",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-explorer-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,83,53,54",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Code Search (Ctrl+Shift+F)",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-search-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,136,53,53",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Source Control (Ctrl+Shift+G)",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-source-control-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,188,53,54",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Run and Debug (Ctrl+Shift+D)",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-run-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,241,53,53",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Remote Explorer",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-remote-explorer-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,293,53,54",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Extensions (Ctrl+Shift+X) - 1 requires restart",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-extensions-view-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,346,53,53",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Extensions (Ctrl+Shift+X) - 1 requires restart",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,346,53,53",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Claude Code",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label activity-workbench-view-extension-claude-sessions-sidebar-7fa6ab744ca97f56a8bee549847f4b2f090cd11a uri-icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "210,398,53,54",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Explorer",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "287,83,57,45",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-dropdown",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "594,91,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "dropdown-label",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "594,91,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Views and More Actions...",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-toolbar-more",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "594,91,28,29",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "262,982,375,6",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal disabled",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "262,955,375,5",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Explorer Section: Click Application",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "pane-header expanded",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "262,127,375,28",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Explorer Section: Click Application",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "title",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "287,127,115,28",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Outline Section",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "pane-header",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "262,957,375,28",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Outline",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "title",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "287,958,51,28",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Timeline Section",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "pane-header timeline-view",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "262,985,375,28",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Timeline",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "title",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "287,985,59,28",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-sash horizontal maximum",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "637,1010,698,5",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "workbench.parts.editor",
+                         "ClassName":  "part editor",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "637,83,698,930",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "title tabs show-file-icons",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "637,83,698,39",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Inspect Uia",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "650,83,107,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "761,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Run Phase0 Diagnostic",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "805,83,192,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1001,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Test Thread Desktop",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1044,83,175,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1223,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Test Uia Target",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1266,83,133,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1403,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Scan Native",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1446,83,113,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1563,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Test Csharp Enum",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1607,83,155,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1766,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Test Default Desktop",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1810,83,176,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1990,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Check Winsta",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2034,83,125,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2163,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Enum Windows",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2206,83,140,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2350,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "List Windows",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-icon-label codicon-jetski-artifacts-editor-icon predefined-file-icon tab-label tab-label-has-badge",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2394,83,123,39",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Close (Ctrl+F4)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-close",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "2521,90,26,25",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Claude Code: Open",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label icon",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1162,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Split Editor Right (Ctrl+\\) [Alt] Split Editor Down",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-split-horizontal",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1195,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Go Back (Alt+LeftArrow)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-arrow-left",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1227,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Go Forward (Alt+RightArrow)",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-arrow-right",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1260,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "monaco-dropdown",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1292,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "dropdown-label",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1292,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "More Actions...",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "action-label codicon codicon-toolbar-more",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1292,88,28,29",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1296,92,21,21",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "",
+                         "ControlType":  "ControlType.Group",
+                         "AutomationId":  "",
+                         "ClassName":  "jetski-custom-editor-pane editor-pane-parent-class-378ac297-59a2-4d21-a404-36b8c86a8b7c",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "637,121,698,892",
+                         "SupportedPatterns":  [
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Inspect Uia",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "657,134,83,23",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "less than a minute ago",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "749,135,150,21",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Review",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "base-ui-P0-4",
+                         "ClassName":  "inline-flex items-center font-medium transition-colors select-none outline-none cursor-pointer justify-center disabled:opacity-50 bg-secondary text-secondary-foreground hover:text-foreground border-none h-6 text-xs rounded-md gap-1 px-2.5 mr-2 popover-trigger-element",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1222,131,93,31",
+                         "SupportedPatterns":  [
+                                                   "ExpandCollapsePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "ps1",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "663,-283,28,24",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Copy code",
+                         "ControlType":  "ControlType.Button",
+                         "AutomationId":  "",
+                         "ClassName":  "appearance-none bg-transparent border-0 p-0 cursor-pointer text-secondary-foreground hover:text-foreground transition-colors",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1278,-280,18,18",
+                         "SupportedPatterns":  [
+                                                   "InvokePatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Add-Type",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-235,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,-235,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,-235,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "AssemblyName UIAutomationClient",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "750,-235,257,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Add-Type",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-211,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,-211,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,-211,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "AssemblyName UIAutomationTypes",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "750,-211,249,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$root",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-162,42,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "709,-162,9,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "718,-162,9,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " [",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,-162,17,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "System.Windows.Automation.AutomationElement",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,-162,356,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "]::RootElement",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1097,-162,116,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$cond",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-138,42,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "709,-138,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "718,-138,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " [",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,-138,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "System.Windows.Automation.Condition",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,-138,290,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "]::TrueCondition",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1031,-138,133,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$topLevelWindows",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-114,133,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "800,-114,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "808,-114,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "816,-114,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$root",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-89,42,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".FindAll",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "709,-89,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "([",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,-89,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "System.Windows.Automation.TreeScope",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,-89,289,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "]::Children",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1080,-89,92,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ",",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1171,-89,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1179,-89,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$cond",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1188,-89,42,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ")",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1229,-89,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Write-Output",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-41,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,-41,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"Scanning top-level UIA elements...\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,-41,298,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$found",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,-17,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "717,-17,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,-17,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,-17,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "0",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,-17,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "foreach",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,8,59,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " (",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,8,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "742,8,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "759,8,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "in",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,8,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,8,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$topLevelWindows",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,8,133,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ") {",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "924,8,25,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "    ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,32,34,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "try",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "701,32,26,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " {",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,32,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        $pId ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,57,108,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,57,9,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,57,10,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,57,17,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".Current.ProcessId",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "808,57,150,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,81,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$p",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,81,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "750,81,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "759,81,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,81,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Get-Process",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,81,92,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "866,81,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "874,81,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Id $pId ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "882,81,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "948,81,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "ErrorAction SilentlyContinue",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "957,81,232,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,105,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$pName",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,105,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,105,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,105,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "800,105,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "if",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "808,105,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " (",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "825,105,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$p",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "841,105,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ") { ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "858,105,34,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$p",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "891,105,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".ProcessName",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "907,105,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " } ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1006,105,26,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "else",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1031,105,34,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " { ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1064,105,26,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"Unknown\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1089,105,75,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " }",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1163,105,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,130,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$name",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,130,42,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,130,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,130,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,130,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "800,130,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".Current.Name",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "816,130,109,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,154,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$class",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,154,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,154,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "792,154,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "800,154,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "808,154,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".Current.ClassName",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "825,154,149,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,178,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "        ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,203,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "if",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "734,203,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " (",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "750,203,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$pName",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,203,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "816,203,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-match",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "825,203,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "874,203,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"Antigravity\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "882,203,109,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "990,203,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-or",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "998,203,26,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1023,203,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$name",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1031,203,42,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1072,203,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-match",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1080,203,51,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1130,203,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"Antigravity\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1138,203,108,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1245,203,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-or",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1254,203,25,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1278,203,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$class",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,227,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "717,227,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "-match",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "726,227,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "775,227,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"Chrome\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "783,227,67,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ") {",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "849,227,26,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "            ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,252,100,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$found",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,252,50,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "++",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "816,252,18,18",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "            ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,276,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "Write-Output",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,276,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "866,276,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"[",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "874,276,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$found",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "891,276,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "] Name: \u0027",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "940,276,75,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$name",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1014,276,43,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\u0027 | Class: \u0027",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1056,276,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$class",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1155,276,50,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\u0027 | PID: $pId (",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,276,611,43",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$pName",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "717,300,51,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ") | HWND: ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,300,83,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$(",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "849,300,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "866,300,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".Current.NativeWindowHandle",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "882,300,224,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ")",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1105,300,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "\"",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1113,300,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "            ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,325,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "            ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,349,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "# Let\u0027s see descendants",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,349,191,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "            ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,373,100,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$children",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,373,75,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "841,373,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "=",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "849,373,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " ",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "858,373,9,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "$w",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,398,17,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ".FindAll",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "685,398,66,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "([",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "750,398,18,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "System.Windows.Automation.TreeScope",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "767,398,290,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "]::Children",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1056,398,91,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  ",",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "1146,398,10,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  " [",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "668,398,496,43",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "System.Windows.Automation.Condition",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "676,422,290,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     },
+                     {
+                         "Name":  "]::TrueCondition)",
+                         "ControlType":  "ControlType.Text",
+                         "AutomationId":  "",
+                         "ClassName":  "",
+                         "IsEnabled":  true,
+                         "BoundingRectangle":  "965,422,141,19",
+                         "SupportedPatterns":  [
+                                                   "TextPatternIdentifiers.Pattern",
+                                                   "ScrollItemPatternIdentifiers.Pattern"
+                                               ],
+                         "AppearsToBeConfirmationTarget":  false
+                     }
+                 ],
+    "Warnings":  [
+
+                 ]
+}

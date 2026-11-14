@@ -1,0 +1,47 @@
+﻿=================================================================
+ANTIGRAVITY WINDOWS UI AUTOMATION DIAGNOSTIC REPORT (PHASE 0)
+Timestamp (UTC): 2026-10-19T06:15:54.5664297Z
+Target Window HWND: 328482 (0x00050322)
+Target PID: 22216
+Window Title: Click Application - Antigravity IDE - Inspect Uia
+Window Class: Chrome_WidgetWin_1
+Window BoundingRect: 210,40,1500,1000
+Total Interactive Elements Scanned: 1093
+Elements Logged in Sample: 250
+Prompt Dialog Detected Currently: False
+Recommendation Marker Found: None
+Submit Candidate Buttons Found: 
+Warnings Encountered: 0
+-----------------------------------------------------------------
+SAMPLE DISCOVERED ELEMENTS (First 30):
+[ 0] Type: Pane               | Name: '' | Patterns: []
+[ 1] Type: Pane               | Name: 'Click Application - Antigravity IDE - Inspect Uia' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[ 2] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[ 3] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[ 4] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[ 5] Type: Button             | Name: 'Minimize' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[ 6] Type: Button             | Name: 'Maximize' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[ 7] Type: Button             | Name: 'Close' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[ 8] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[ 9] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[10] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[11] Type: Pane               | Name: '' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[12] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[13] Type: Pane               | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollPatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[14] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[15] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[16] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[17] Type: Text               | Name: 'Click Application - Antigravity IDE - Inspect Uia' | Patterns: [TextPatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[18] Type: Button             | Name: 'Customize Layout...' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[19] Type: CheckBox           | Name: 'Toggle Primary Side Bar (Ctrl+B)' | Patterns: [ValuePatternIdentifiers.Pattern, TogglePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[20] Type: CheckBox           | Name: 'Toggle Panel (Ctrl+J)' | Patterns: [ValuePatternIdentifiers.Pattern, TogglePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[21] Type: CheckBox           | Name: 'Toggle Agent (Ctrl+Alt+B)' | Patterns: [ValuePatternIdentifiers.Pattern, TogglePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[22] Type: Button             | Name: 'Quick Open' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[23] Type: Button             | Name: 'Open Browser (Preview)' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[24] Type: Button             | Name: 'Editor-Specific Settings' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[25] Type: Button             | Name: 'Profile' | Patterns: [ExpandCollapsePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[26] Type: Group              | Name: 'Profile' | Patterns: [ScrollItemPatternIdentifiers.Pattern]
+[27] Type: Text               | Name: '' | Patterns: [TextPatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[28] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+[29] Type: Group              | Name: '' | Patterns: [InvokePatternIdentifiers.Pattern, ScrollItemPatternIdentifiers.Pattern]
+=================================================================

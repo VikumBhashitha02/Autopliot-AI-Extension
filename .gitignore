@@ -1,0 +1,92 @@
+# ==========================================
+# AutoPilot AI — Git Ignore Configuration
+# ==========================================
+
+# --- Dependencies ---
+node_modules/
+.pnpm-store/
+
+# --- Build & Bundle Artifacts ---
+dist/
+dist-electron/
+build/
+out/
+release/
+.vite/
+*.tsbuildinfo
+
+# --- Electron Packaging & Installer Artifacts ---
+win-unpacked/
+mac/
+linux-unpacked/
+builder-debug.yml
+builder-effective-config.yaml
+*.exe
+*.msi
+*.zip
+*.tar.gz
+*.dmg
+*.pkg
+*.deb
+*.rpm
+*.AppImage
+*.snap
+*.blockmap
+
+# --- Local App Data, Database & User State ---
+app_data/
+autopilot_data/
+autopilot_subscription_data/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+logs/
+
+# --- Environment Variables & Secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+
+# --- Test, Cache & Temporary Files ---
+coverage/
+.nyc_output/
+scratch/
+temp/
+tmp/
+*.tmp
+*.bak
+*~
+
+# --- IDE & Editor Artifacts ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# --- Operating System Artifacts ---
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
